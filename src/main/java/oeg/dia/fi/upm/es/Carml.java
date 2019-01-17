@@ -22,7 +22,7 @@ public class Carml
                 File testDir = directories[i];
                 String nameDir = testDir.getName();
                 boolean result;
-                LOG.log(Level.INFO,"Running test "+nameDir+"...");
+                LOG.log(Level.INFO,"Running the test "+nameDir+"...");
                 if(nameDir.matches(".*CSV")){
                     result = RunCSVTest.RunTest(testDir);
                     writer.println(nameDir+","+result);
