@@ -10,7 +10,7 @@ public class RunMySQLTest {
 
     public static boolean RunTest(File dirTest){
 
-        LOG.log(Level.WARNING,"CARML does not provide support for MySQL");
+        //LOG.log(Level.WARNING,"CARML does not provide support for MySQL");
 
         return false;
     }

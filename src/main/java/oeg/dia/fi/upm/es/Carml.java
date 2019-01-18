@@ -22,12 +22,14 @@ public class Carml
                 File testDir = directories[i];
                 String nameDir = testDir.getName();
                 boolean result;
-                LOG.log(Level.INFO,"Running the test "+nameDir+"...");
+
                 if(nameDir.matches(".*CSV")){
+                    LOG.log(Level.INFO,"Running the test "+nameDir+"...");
                     result = RunCSVTest.RunTest(testDir);
                     writer.println(nameDir+","+result);
                 }
                 else if(nameDir.matches(".*JSON")){
+                    LOG.log(Level.INFO,"Running the test "+nameDir+"...");
                     result = RunJSONTest.RunTest(testDir);
                     writer.println(nameDir+","+result);
                 }
@@ -44,6 +46,7 @@ public class Carml
                     //result = RunSQLServerTest.RunTest(testDir);
                 }
                 else if(nameDir.matches(".*XML")){
+                    LOG.log(Level.INFO,"Running the test "+nameDir+"...");
                     result = RunXMLTest.RunTest(testDir);
                     writer.println(nameDir+","+result);
                 }

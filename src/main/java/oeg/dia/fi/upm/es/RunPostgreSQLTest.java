@@ -10,7 +10,7 @@ public class RunPostgreSQLTest {
 
     public static boolean RunTest(File dirTest){
 
-        LOG.log(Level.WARNING,"CARML does not provide support for PostgreSQL");
+        //LOG.log(Level.WARNING,"CARML does not provide support for PostgreSQL");
 
         return false;
     }

@@ -11,7 +11,7 @@ public class RunSPARQLTest {
 
     public static boolean RunTest(File dirTest){
 
-        LOG.log(Level.WARNING,"CARML does not provide support for SPARQL");
+        //LOG.log(Level.WARNING,"CARML does not provide support for SPARQL");
 
         return false;
     }

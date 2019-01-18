@@ -1,161 +1,75 @@
-/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java "-javaagent:/Users/dchaves/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/183.5153.38/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=61703:/Users/dchaves/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/183.5153.38/IntelliJ IDEA.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/dchaves/Documents/proyectos/rml/carml-test-cases/target/classes:/Users/dchaves/.m2/repository/com/taxonic/carml/carml-engine/0.2.3/carml-engine-0.2.3.jar:/Users/dchaves/.m2/repository/com/taxonic/carml/carml-rdf-mapper/0.2.3/carml-rdf-mapper-0.2.3.jar:/Users/dchaves/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/dchaves/.m2/repository/org/eclipse/rdf4j/rdf4j-repository-api/2.3.2/rdf4j-repository-api-2.3.2.jar:/Users/dchaves/.m2/repository/org/eclipse/rdf4j/rdf4j-query/2.3.2/rdf4j-query-2.3.2.jar:/Users/dchaves/.m2/repository/com/taxonic/carml/carml-logical-source-resolver/0.2.3/carml-logical-source-resolver-0.2.3.jar:/Users/dchaves/.m2/repository/com/taxonic/carml/carml-commons/0.2.3/carml-commons-0.2.3.jar:/Users/dchaves/.m2/repository/com/taxonic/carml/carml-model/0.2.3/carml-model-0.2.3.jar:/Users/dchaves/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-turtle/2.3.2/rdf4j-rio-turtle-2.3.2.jar:/Users/dchaves/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-datatypes/2.3.2/rdf4j-rio-datatypes-2.3.2.jar:/Users/dchaves/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-languages/2.3.2/rdf4j-rio-languages-2.3.2.jar:/Users/dchaves/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-trig/2.3.2/rdf4j-rio-trig-2.3.2.jar:/Users/dchaves/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/dchaves/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/dchaves/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/dchaves/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/dchaves/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/dchaves/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/dchaves/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/dchaves/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/dchaves/.m2/repository/org/slf4j/slf4j-api/1.8.0-beta2/slf4j-api-1.8.0-beta2.jar:/Users/dchaves/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-api/2.4.2/rdf4j-rio-api-2.4.2.jar:/Users/dchaves/.m2/repository/org/eclipse/rdf4j/rdf4j-model/2.4.2/rdf4j-model-2.4.2.jar:/Users/dchaves/.m2/repository/org/eclipse/rdf4j/rdf4j-util/2.4.2/rdf4j-util-2.4.2.jar:/Users/dchaves/.m2/repository/com/taxonic/carml/carml-logical-source-resolver-jsonpath/0.2.3/carml-logical-source-resolver-jsonpath-0.2.3.jar:/Users/dchaves/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/Users/dchaves/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/dchaves/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/dchaves/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/dchaves/.m2/repository/com/taxonic/carml/carml-logical-source-resolver-xpath/0.2.3/carml-logical-source-resolver-xpath-0.2.3.jar:/Users/dchaves/.m2/repository/net/sf/saxon/Saxon-HE/9.8.0-12/Saxon-HE-9.8.0-12.jar:/Users/dchaves/.m2/repository/com/taxonic/carml/carml-logical-source-resolver-csv/0.2.3/carml-logical-source-resolver-csv-0.2.3.jar:/Users/dchaves/.m2/repository/com/univocity/univocity-parsers/2.6.3/univocity-parsers-2.6.3.jar oeg.dia.fi.upm.es.Carml
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0009a-MySQL...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002i-MySQL...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002h-SPARQL...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007b-SQLServer...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002i-SQLServer...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007g-PostgreSQL...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002b-PostgreSQL...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0010a-PostgreSQL...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007e-MySQL...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0001b-SPARQL...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
+/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java "-javaagent:/Users/dchaves/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/183.5153.38/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=61820:/Users/dchaves/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/183.5153.38/IntelliJ IDEA.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/dchaves/Documents/proyectos/rml/carml-test-cases/target/classes:/Users/dchaves/.m2/repository/com/taxonic/carml/carml-engine/0.2.3/carml-engine-0.2.3.jar:/Users/dchaves/.m2/repository/com/taxonic/carml/carml-rdf-mapper/0.2.3/carml-rdf-mapper-0.2.3.jar:/Users/dchaves/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/dchaves/.m2/repository/org/eclipse/rdf4j/rdf4j-repository-api/2.3.2/rdf4j-repository-api-2.3.2.jar:/Users/dchaves/.m2/repository/org/eclipse/rdf4j/rdf4j-query/2.3.2/rdf4j-query-2.3.2.jar:/Users/dchaves/.m2/repository/com/taxonic/carml/carml-logical-source-resolver/0.2.3/carml-logical-source-resolver-0.2.3.jar:/Users/dchaves/.m2/repository/com/taxonic/carml/carml-commons/0.2.3/carml-commons-0.2.3.jar:/Users/dchaves/.m2/repository/com/taxonic/carml/carml-model/0.2.3/carml-model-0.2.3.jar:/Users/dchaves/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-turtle/2.3.2/rdf4j-rio-turtle-2.3.2.jar:/Users/dchaves/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-datatypes/2.3.2/rdf4j-rio-datatypes-2.3.2.jar:/Users/dchaves/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-languages/2.3.2/rdf4j-rio-languages-2.3.2.jar:/Users/dchaves/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-trig/2.3.2/rdf4j-rio-trig-2.3.2.jar:/Users/dchaves/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/dchaves/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/dchaves/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/dchaves/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/dchaves/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/dchaves/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/dchaves/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/dchaves/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/dchaves/.m2/repository/org/slf4j/slf4j-api/1.8.0-beta2/slf4j-api-1.8.0-beta2.jar:/Users/dchaves/.m2/repository/org/eclipse/rdf4j/rdf4j-rio-api/2.4.2/rdf4j-rio-api-2.4.2.jar:/Users/dchaves/.m2/repository/org/eclipse/rdf4j/rdf4j-model/2.4.2/rdf4j-model-2.4.2.jar:/Users/dchaves/.m2/repository/org/eclipse/rdf4j/rdf4j-util/2.4.2/rdf4j-util-2.4.2.jar:/Users/dchaves/.m2/repository/com/taxonic/carml/carml-logical-source-resolver-jsonpath/0.2.3/carml-logical-source-resolver-jsonpath-0.2.3.jar:/Users/dchaves/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/Users/dchaves/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/dchaves/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/dchaves/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/dchaves/.m2/repository/com/taxonic/carml/carml-logical-source-resolver-xpath/0.2.3/carml-logical-source-resolver-xpath-0.2.3.jar:/Users/dchaves/.m2/repository/net/sf/saxon/Saxon-HE/9.8.0-12/Saxon-HE-9.8.0-12.jar:/Users/dchaves/.m2/repository/com/taxonic/carml/carml-logical-source-resolver-csv/0.2.3/carml-logical-source-resolver-csv-0.2.3.jar:/Users/dchaves/.m2/repository/com/univocity/univocity-parsers/2.6.3/univocity-parsers-2.6.3.jar oeg.dia.fi.upm.es.Carml
+ene. 18, 2019 4:00:06 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007c-JSON...
 SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:06 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0010a-SQLServer...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007a-SPARQL...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:06 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0002a-CSV...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:06 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0002c-CSV...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.RunCSVTest RunTest
+ene. 18, 2019 4:00:06 P. M. oeg.dia.fi.upm.es.RunCSVTest RunTest
 WARNING: Error Header name 'IDs' not found. Available columns are: [ID, Name]
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0011b-MySQL...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0001a-SQLServer...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:06 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0001b-JSON...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:06 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0003c-PostgreSQL...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007g-MySQL...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0003b-MySQL...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0008b-SPARQL...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0008c-SQLServer...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:06 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0002b-CSV...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0001b-MySQL...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0012b-PostgreSQL...
-ene. 18, 2019 3:49:21 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:06 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0009a-JSON...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:06 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:06 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0001a-XML...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0000-CSV...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0004a-SQLServer...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0010a-JSON...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002j-PostgreSQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0009b-SPARQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007d-SQLServer...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007c-MySQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0000-PostgreSQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0003c-CSV...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0002e-JSON...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007a-MySQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0002e-CSV...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunCSVTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunCSVTest RunTest
 WARNING: Error could not create file source for path [./src/main/resources/RMLTC0002e-CSV/student2.csv]
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0009a-SQLServer...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007b-JSON...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0009a-PostgreSQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002b-SQLServer...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0012a-JSON...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0001b-XML...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0003c-JSON...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007c-SPARQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0000-MySQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007b-PostgreSQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0006a-SPARQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002g-PostgreSQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007e-PostgreSQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0003c-MySQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007f-MySQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0004b-PostgreSQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007c-SQLServer...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0010c-PostgreSQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007d-XML...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0012a-SQLServer...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0012c-CSV...
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by org.apache.commons.lang3.builder.ReflectionToStringBuilder (file:/Users/dchaves/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar) to field java.lang.Enum.name
 WARNING: Please consider reporting this to the maintainers of org.apache.commons.lang3.builder.ReflectionToStringBuilder
 WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
 WARNING: All illegal access operations will be denied in a future release
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunCSVTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunCSVTest RunTest
 WARNING: Error Subject map must be specified in triples map CarmlTriplesMap <http://example.com/base/TriplesMap1>:
  com.taxonic.carml.model.impl.CarmlTriplesMap@f80945f[
   logicalSource=com.taxonic.carml.model.impl.CarmlLogicalSource@5d9b7a8a[
@@ -165,7 +79,7 @@ WARNING: Error Subject map must be specified in triples map CarmlTriplesMap <htt
       iriString=http://semweb.mmlab.be/ns/ql#CSV,
       localNameIdx=-1
     ],
-    id=node1d1gn04ojx114,
+    id=node1d1gnjqldx114,
     label=<null>
   ],
   subjectMap=<null>,
@@ -182,7 +96,7 @@ WARNING: Error Subject map must be specified in triples map CarmlTriplesMap <htt
             localNameIdx=-1
           ],
           functionValue=<null>,
-          id=node1d1gn04ojx119,
+          id=node1d1gnjqldx119,
           label=<null>
         ]
       },
@@ -199,14 +113,14 @@ WARNING: Error Subject map must be specified in triples map CarmlTriplesMap <htt
           ],
           constant=<null>,
           functionValue=<null>,
-          id=node1d1gn04ojx116,
+          id=node1d1gnjqldx116,
           label=<null>
         ]
       },
       graphMaps=java.util.Collections$UnmodifiableSet@63dd899{
 
       },
-      id=node1d1gn04ojx115,
+      id=node1d1gnjqldx115,
       label=<null>
     ],
     com.taxonic.carml.model.impl.CarmlPredicateObjectMap@59d2400d[
@@ -221,7 +135,7 @@ WARNING: Error Subject map must be specified in triples map CarmlTriplesMap <htt
             localNameIdx=-1
           ],
           functionValue=<null>,
-          id=node1d1gn04ojx120,
+          id=node1d1gnjqldx120,
           label=<null>
         ]
       },
@@ -235,473 +149,291 @@ WARNING: Error Subject map must be specified in triples map CarmlTriplesMap <htt
           termType=<null>,
           constant=<null>,
           functionValue=<null>,
-          id=node1d1gn04ojx118,
+          id=node1d1gnjqldx118,
           label=<null>
         ]
       },
       graphMaps=java.util.Collections$UnmodifiableSet@34cdeda2{
 
       },
-      id=node1d1gn04ojx117,
+      id=node1d1gnjqldx117,
       label=<null>
     ]
   },
   id=http://example.com/base/TriplesMap1,
   label=<null>
 ]
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0012b-CSV...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002j-MySQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0009b-MySQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007e-XML...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0006a-XML...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002h-SQLServer...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0008a-CSV...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0004b-CSV...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunCSVTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunCSVTest RunTest
 WARNING: Error encountered disallowed term type [LITERAL]; allowed term types: [BLANK_NODE, IRI]
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0008c-CSV...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0010c-XML...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007g-XML...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007g-SPARQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007h-PostgreSQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002h-MySQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0008b-SQLServer...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0004a-SPARQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0012a-CSV...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0003a-SQLServer...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0012b-SPARQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007f-XML...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002b-SPARQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0011b-PostgreSQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0003a-PostgreSQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002e-SQLServer...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007e-JSON...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0010b-XML...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0003a-MySQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007d-MySQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0008b-CSV...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0002b-JSON...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0004a-CSV...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0002c-JSON...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002h-PostgreSQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0009b-CSV...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007e-SPARQL...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007d-JSON...
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:22 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0011b-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0008b-PostgreSQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0011b-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007b-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007e-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0012d-CSV...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunCSVTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunCSVTest RunTest
 WARNING: Error multiple values for property [http://www.w3.org/ns/r2rml#subjectMap], but corresponding java property is NOT an Iterable property
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0006a-PostgreSQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0001a-MySQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007c-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0006a-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007h-CSV...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunCSVTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunCSVTest RunTest
 WARNING: Error encountered constant value of type class org.eclipse.rdf4j.model.impl.SimpleBNode, which is not allowed for this term map
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0009a-CSV...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007h-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007a-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0008a-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002e-PostgreSQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002c-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0001b-PostgreSQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007h-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0004b-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007b-MySQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007f-CSV...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0012a-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0008c-SPARQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0004a-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0010c-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0008b-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0008b-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0010b-CSV...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0008c-MySQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0009a-SPARQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0000-SPARQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0008a-PostgreSQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0012b-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0004a-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0010b-MySQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0010c-CSV...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0008c-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002b-MySQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007g-CSV...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0011b-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0006a-CSV...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007e-CSV...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0012b-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007g-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0012d-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error multiple values for property [http://www.w3.org/ns/r2rml#subjectMap], but corresponding java property is NOT an Iterable property
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0004b-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0006a-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0008a-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0008a-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0010a-CSV...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0003b-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007c-PostgreSQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0001a-PostgreSQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0008a-MySQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0004a-MySQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0012c-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007d-CSV...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0001a-SPARQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007h-MySQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007b-SPARQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007f-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0009a-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0006a-MySQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0004a-PostgreSQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007f-PostgreSQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002g-SPARQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007f-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002c-PostgreSQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007a-CSV...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0002a-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007c-CSV...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0003b-PostgreSQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0012d-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error multiple values for property [http://www.w3.org/ns/r2rml#subjectMap], but corresponding java property is NOT an Iterable property
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007h-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0008a-SPARQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0011b-CSV...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0009b-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:07 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0008c-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007b-CSV...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0012b-MySQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0010b-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0008c-PostgreSQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0010a-MySQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0007a-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0002b-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0012b-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002i-PostgreSQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002j-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002a-MySQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0000-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007a-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0002c-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0012a-PostgreSQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007f-SPARQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0008b-MySQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007a-PostgreSQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0009b-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0003c-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0002a-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002g-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0004b-MySQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0010b-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002c-MySQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0010c-MySQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0009b-PostgreSQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0001b-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002g-MySQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007g-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007d-PostgreSQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0001a-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002a-PostgreSQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0010c-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0010b-PostgreSQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0004b-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0000-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0002e-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0001b-CSV...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0003c-SPARQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0012a-MySQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0002g-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Namespace prefix 'rml' used but not defined [line 9]
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0003c-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0004b-SPARQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002a-SPARQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0012a-SPARQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007d-SPARQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0012c-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#JSONPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0000-XML...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.RunXMLTest RunTest
 WARNING: Error Unsupported reference formulation http://semweb.mmlab.be/ns/ql#XPath
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0009b-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002e-MySQL...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0002a-SQLServer...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0001a-CSV...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.Carml main
 INFO: Running the test RMLTC0002g-JSON...
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
+ene. 18, 2019 4:00:08 P. M. oeg.dia.fi.upm.es.RunJSONTest RunTest
 WARNING: Error Namespace prefix 'rml' used but not defined [line 9]
-ene. 18, 2019 3:49:23 P. M. oeg.dia.fi.upm.es.Carml main
-INFO: Running the test RMLTC0007h-SPARQL...
 
 Process finished with exit code 0

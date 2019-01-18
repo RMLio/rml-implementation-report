@@ -10,7 +10,7 @@ public class RunSQLServerTest {
 
     public static boolean RunTest(File dirTest){
 
-        LOG.log(Level.WARNING,"CARML does not provide support for SQLServer");
+        //LOG.log(Level.WARNING,"CARML does not provide support for SQLServer");
 
         return false;
     }
