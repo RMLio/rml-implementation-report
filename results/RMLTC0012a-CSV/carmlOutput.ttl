@@ -1,0 +1,6 @@
+
+_:bnode-BobSmith30 <http://example.com/amount> "30";
+  <http://xmlns.com/foaf/0.1/name> "Bob Smith" .
+
+_:bnode-SueJones20 <http://example.com/amount> "20";
+  <http://xmlns.com/foaf/0.1/name> "Sue Jones" .

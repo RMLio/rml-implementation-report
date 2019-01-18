@@ -52,7 +52,7 @@ public class Carml
                    LOG.log(Level.WARNING,"The "+nameDir+" test is not supported yet in CARML");
                 }
             }
-
+            writer.close();
         } catch (Exception e) {
            LOG.log(Level.WARNING,"Problem with the result file "+e.getMessage());
         }

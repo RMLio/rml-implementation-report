@@ -32,6 +32,14 @@
       <version>0.2.3</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-rio-api -->
+    <dependency>
+      <groupId>org.eclipse.rdf4j</groupId>
+      <artifactId>rdf4j-rio-api</artifactId>
+      <version>2.4.2</version>
+    </dependency>
+
+
     <!-- Choose the resolvers to suit your need -->
     <dependency>
       <groupId>com.taxonic.carml</groupId>
