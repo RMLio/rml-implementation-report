@@ -1,7 +1,6 @@
 package oeg.dia.fi.upm.es;
 
 import com.taxonic.carml.engine.RmlMapper;
-import com.taxonic.carml.logical_source_resolver.JsonPathResolver;
 import com.taxonic.carml.logical_source_resolver.XPathResolver;
 import com.taxonic.carml.model.TriplesMap;
 import com.taxonic.carml.util.RmlMappingLoader;
