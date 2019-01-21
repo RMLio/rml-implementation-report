@@ -1,6 +1,9 @@
 package oeg.dia.fi.upm.es;
 
+import com.opencsv.CSVReader;
+
 import java.io.File;
+import java.io.FileReader;
 import java.io.PrintWriter;
 import java.util.logging.Logger;
 import java.util.logging.Level;
@@ -15,9 +18,9 @@ public class Carml
 
     public static void main( String[] args )
     {
-        File[] directories = new File ("./src/main/resources/").listFiles();
+        File[] directories = new File ("./results/").listFiles();
         try {
-            PrintWriter writer = new PrintWriter("./src/main/carmlResults.csv", "UTF-8");
+            PrintWriter writer = new PrintWriter("./results/carmlResults.csv", "UTF-8");
             writer.println("id,CARML");
             for (int i = 0 ; i<directories.length; i++){
                 File testDir = directories[i];
@@ -32,19 +35,19 @@ public class Carml
                 }
                 else if(nameDir.matches(".*MySQL")){
                     //result = RunMySQLTest.RunTest(testDir);
-                    writer.println(testDir.getName()+",FAILED");
+                    writer.println(testDir.getName()+",NOT SUPPORTED");
                 }
                 else if(nameDir.matches(".*PostgreSQL")){
                     //result = RunPostgreSQLTest.RunTest(testDir);
-                    writer.println(testDir.getName()+",FAILED");
+                    writer.println(testDir.getName()+",NOT SUPPORTED");
                 }
                 else if(nameDir.matches(".*SPARQL")){
                     //result = RunSPARQLTest.RunTest(testDir);
-                    writer.println(testDir.getName()+",FAILED");
+                    writer.println(testDir.getName()+",NOT SUPPORTED");
                 }
                 else if(nameDir.matches(".*SQLServer")){
                     //result = RunSQLServerTest.RunTest(testDir);
-                    writer.println(testDir.getName()+",FAILED");
+                    writer.println(testDir.getName()+",NOT SUPPORTED");
                 }
                 else if(nameDir.matches(".*XML")){
                     LOG.log(Level.INFO,"Running the test "+nameDir+"...");
@@ -60,4 +63,6 @@ public class Carml
         }
 
     }
+
+
 }

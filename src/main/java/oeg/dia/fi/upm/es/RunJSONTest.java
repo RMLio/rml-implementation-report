@@ -1,5 +1,6 @@
 package oeg.dia.fi.upm.es;
 
+import com.opencsv.CSVReader;
 import com.taxonic.carml.engine.RmlMapper;
 import com.taxonic.carml.logical_source_resolver.JsonPathResolver;
 import com.taxonic.carml.model.TriplesMap;
@@ -24,8 +25,8 @@ public class RunJSONTest {
         File[] directories = dirTest.listFiles();
         File mappingFile=null, outputFile =null;
         File output = new File(dirTest.getAbsolutePath()+"/carmlOutput.ttl");
-        FileOutputStream foutput; String test="";
-        boolean comparator=false;
+        FileOutputStream foutput; String test;
+        boolean comparator;
         try {
             foutput = new FileOutputStream(output);
 
@@ -63,14 +64,36 @@ public class RunJSONTest {
             comparator = Models.isomorphic(result,expected);
         }catch (Exception e){
             LOG.log(Level.WARNING,"Error "+e.getMessage());
+            comparator = checkExpectedError(dirTest.getName());
         }
         //ToDo check if the error is expected
-        if(comparator==true){
+        if(comparator){
             test = "PASSED";
         }
         else{
             test = "FAILED";
         }
         pw.println(dirTest.getName()+","+test);
+    }
+
+    private static boolean checkExpectedError(String testName){
+        String[] line;
+        try {
+            CSVReader csvReader = new CSVReader(new FileReader("./expectedError.csv"));
+            while ((line = csvReader.readNext()) != null) {
+                if(line[0].equals(testName)){
+                    LOG.log(Level.INFO,"Checking error with test: "+testName+"/"+line[0]+". Expected: "+line[1]);
+                    if(line[1].equals("yes")){
+                        return true;
+                    }
+                    else {
+                        return false;
+                    }
+                }
+            }
+        }catch (IOException e ){
+            LOG.log(Level.WARNING,"Error parsing the csv: "+e.getMessage());
+        }
+        return false;
     }
 }

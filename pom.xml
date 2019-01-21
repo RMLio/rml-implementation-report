@@ -20,12 +20,7 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
+
     <dependency>
       <groupId>com.taxonic.carml</groupId>
       <artifactId>carml-logical-source-resolver-jsonpath</artifactId>
@@ -45,6 +40,17 @@
       <groupId>com.taxonic.carml</groupId>
       <artifactId>carml-engine</artifactId>
       <version>0.2.3</version>
+    </dependency>
+    <dependency>
+      <groupId>com.opencsv</groupId>
+      <artifactId>opencsv</artifactId>
+      <version>3.8</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 
