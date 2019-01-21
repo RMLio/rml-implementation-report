@@ -38,7 +38,7 @@ public class RunJSONTest {
             Set<TriplesMap> mapping = RmlMappingLoader.build().load(RDFFormat.TURTLE, Paths.get(mappingFile.getAbsolutePath()));
 
             RmlMapper mapper = RmlMapper.newBuilder()
-                    .setLogicalSourceResolver(Rdf.Ql.Csv, new JsonPathResolver())
+                    .setLogicalSourceResolver(Rdf.Ql.JsonPath, new JsonPathResolver())
                     // set file directory for sources in mapping
                     .fileResolver(dirTest.toPath())
                     // set classpath basepath for sources in mapping

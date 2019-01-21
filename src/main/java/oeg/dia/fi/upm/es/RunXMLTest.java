@@ -39,7 +39,7 @@ public class RunXMLTest {
             Set<TriplesMap> mapping = RmlMappingLoader.build().load(RDFFormat.TURTLE, Paths.get(mappingFile.getAbsolutePath()));
 
             RmlMapper mapper = RmlMapper.newBuilder()
-                    .setLogicalSourceResolver(Rdf.Ql.Csv, new XPathResolver())
+                    .setLogicalSourceResolver(Rdf.Ql.XPath, new XPathResolver())
                     // set file directory for sources in mapping
                     .fileResolver(dirTest.toPath())
                     // set classpath basepath for sources in mapping
