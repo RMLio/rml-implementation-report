@@ -13,6 +13,7 @@ import org.eclipse.rdf4j.rio.Rio;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.PrintWriter;
 import java.nio.file.Paths;
 import java.util.Set;
 import java.util.logging.Level;
@@ -22,13 +23,13 @@ public class RunXMLTest {
 
     private final static Logger LOG = Logger.getLogger("oeg.dia.fi.upm.es.RunXMLTest");
 
-    public static boolean RunTest(File dirTest){
+    public static boolean RunTest(File dirTest, PrintWriter pw){
 
         File[] directories = dirTest.listFiles();
-        File mappingFile=null, outputFile=null;;
+        File mappingFile=null, outputFile=null;
         File output = new File(dirTest.getAbsolutePath()+"/carmlOutput.ttl");
-        FileOutputStream foutput;
-        boolean comparator = true;
+        FileOutputStream foutput; String warning="";
+        boolean comparator = false;
         try {
             foutput = new FileOutputStream(output);
 
@@ -36,7 +37,7 @@ public class RunXMLTest {
                 if(directories[i].getName().matches(".*mapping.*")){
                     mappingFile = directories[i];
                 }
-                else if (directories[i].getName().matches("output\\.ttl")){
+                else if (directories[i].getName().matches("output\\.ttl") || directories[i].getName().matches("output\\.nq") ){
                     outputFile = directories [i];
                 }
             }
@@ -56,11 +57,19 @@ public class RunXMLTest {
             foutput.flush();
             foutput.close();
             FileInputStream input =new FileInputStream(outputFile);
-            Model exected = Rio.parse(input,"",RDFFormat.TURTLE);
-            comparator = Models.isomorphic(result,exected);
+            Model expected;
+            if (outputFile.getName().matches(".*\\.nq")) {
+                expected = Rio.parse(input, "", RDFFormat.NQUADS);
+            }
+            else {
+                expected = Rio.parse(input, "", RDFFormat.TURTLE);
+            }
+            comparator = Models.isomorphic(result,expected);
         }catch (Exception e){
             LOG.log(Level.WARNING,"Error "+e.getMessage());
+            warning = e.getMessage();
         }
+        pw.println(dirTest.getName()+","+comparator+",\""+warning+"\"");
         return comparator;
     }
 }

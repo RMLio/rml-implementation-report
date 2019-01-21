@@ -18,6 +18,7 @@ public class Carml
         File[] directories = new File ("./src/main/resources/").listFiles();
         try {
             PrintWriter writer = new PrintWriter("./src/main/carmlResults.csv", "UTF-8");
+            writer.println("id,result,warning");
             for (int i = 0 ; i<directories.length; i++){
                 File testDir = directories[i];
                 String nameDir = testDir.getName();
@@ -25,13 +26,11 @@ public class Carml
 
                 if(nameDir.matches(".*CSV")){
                     LOG.log(Level.INFO,"Running the test "+nameDir+"...");
-                    result = RunCSVTest.RunTest(testDir);
-                    writer.println(nameDir+","+result);
+                    result = RunCSVTest.RunTest(testDir,writer);
                 }
                 else if(nameDir.matches(".*JSON")){
                     LOG.log(Level.INFO,"Running the test "+nameDir+"...");
-                    result = RunJSONTest.RunTest(testDir);
-                    writer.println(nameDir+","+result);
+                    result = RunJSONTest.RunTest(testDir,writer);
                 }
                 else if(nameDir.matches(".*MySQL")){
                     //result = RunMySQLTest.RunTest(testDir);
@@ -47,8 +46,7 @@ public class Carml
                 }
                 else if(nameDir.matches(".*XML")){
                     LOG.log(Level.INFO,"Running the test "+nameDir+"...");
-                    result = RunXMLTest.RunTest(testDir);
-                    writer.println(nameDir+","+result);
+                    result = RunXMLTest.RunTest(testDir,writer);
                 }
                 else{
 
