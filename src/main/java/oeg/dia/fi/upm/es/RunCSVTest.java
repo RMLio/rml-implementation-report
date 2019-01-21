@@ -70,7 +70,7 @@ public class RunCSVTest {
             LOG.log(Level.WARNING,"Error "+e.getLocalizedMessage());
             warning = e.getLocalizedMessage();
         }
-        pw.println(dirTest.getName()+","+comparator+",\""+warning+"\"");
+        pw.println(dirTest.getName()+","+comparator+",\""+warning.replaceAll("\n"," ")+"\"");
         return comparator;
     }
 }

@@ -69,7 +69,7 @@ public class RunXMLTest {
             LOG.log(Level.WARNING,"Error "+e.getMessage());
             warning = e.getMessage();
         }
-        pw.println(dirTest.getName()+","+comparator+",\""+warning+"\"");
+        pw.println(dirTest.getName()+","+comparator+",\""+warning.replaceAll("\n"," ")+"\"");
         return comparator;
     }
 }
