@@ -1,374 +1,236 @@
-id,result,warning
-RMLTC0007c-JSON,true,""
-RMLTC0002a-CSV,true,""
-RMLTC0002c-CSV,false,"Header name 'IDs' not found. Available columns are: [ID, Name]"
-RMLTC0001b-JSON,true,""
-RMLTC0002b-CSV,true,""
-RMLTC0009a-JSON,true,""
-RMLTC0001a-XML,true,""
-RMLTC0000-CSV,true,""
-RMLTC0010a-JSON,false,"Use bracket notion ['my prop'] if your property contains blank characters. position: 2"
-RMLTC0003c-CSV,true,""
-RMLTC0002e-JSON,false,"could not create file source for path [./src/main/resources/RMLTC0002e-JSON/student2.json]"
-RMLTC0002e-CSV,false,"could not create file source for path [./src/main/resources/RMLTC0002e-CSV/student2.csv]"
-RMLTC0007b-JSON,false,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0012a-JSON,true,""
-RMLTC0001b-XML,true,""
-RMLTC0003c-JSON,true,""
-RMLTC0007d-XML,true,""
-RMLTC0012c-CSV,false,"Subject map must be specified in triples map CarmlTriplesMap <http://example.com/base/TriplesMap1>:
- com.taxonic.carml.model.impl.CarmlTriplesMap@46f699d5[
-  logicalSource=com.taxonic.carml.model.impl.CarmlLogicalSource@2488b073[
-    source=persons.csv,
-    iterator=<null>,
-    referenceFormulation=org.eclipse.rdf4j.model.impl.SimpleIRI@1c9f0a20[
-      iriString=http://semweb.mmlab.be/ns/ql#CSV,
-      localNameIdx=-1
-    ],
-    id=node1d1o64v4jx114,
-    label=<null>
-  ],
-  subjectMap=<null>,
-  predicateObjectMaps=java.util.Collections$UnmodifiableSet@1cd201a8{
-    com.taxonic.carml.model.impl.CarmlPredicateObjectMap@7db82169[
-      predicateMaps=java.util.Collections$UnmodifiableSet@1992eaf4{
-        com.taxonic.carml.model.impl.CarmlPredicateMap@f74e835[
-          reference=<null>,
-          inverseExpression=<null>,
-          template=<null>,
-          termType=<null>,
-          constant=org.eclipse.rdf4j.model.impl.SimpleIRI@3276732[
-            iriString=http://xmlns.com/foaf/0.1/name,
-            localNameIdx=-1
-          ],
-          functionValue=<null>,
-          id=node1d1o64v4jx119,
-          label=<null>
-        ]
-      },
-      objectMaps=java.util.Collections$UnmodifiableSet@3f28bd56{
-        com.taxonic.carml.model.impl.CarmlObjectMap@31e3250d[
-          datatype=<null>,
-          language=<null>,
-          reference=<null>,
-          inverseExpression=<null>,
-          template={fname} {lname},
-          termType=com.taxonic.carml.model.TermType@53976f5c[
-            name=LITERAL,
-            ordinal=2
-          ],
-          constant=<null>,
-          functionValue=<null>,
-          id=node1d1o64v4jx116,
-          label=<null>
-        ]
-      },
-      graphMaps=java.util.Collections$UnmodifiableSet@48c35007{
-        
-      },
-      id=node1d1o64v4jx115,
-      label=<null>
-    ],
-    com.taxonic.carml.model.impl.CarmlPredicateObjectMap@72a85671[
-      predicateMaps=java.util.Collections$UnmodifiableSet@6722db6e{
-        com.taxonic.carml.model.impl.CarmlPredicateMap@18f20260[
-          reference=<null>,
-          inverseExpression=<null>,
-          template=<null>,
-          termType=<null>,
-          constant=org.eclipse.rdf4j.model.impl.SimpleIRI@4ae33a11[
-            iriString=http://example.com/amount,
-            localNameIdx=-1
-          ],
-          functionValue=<null>,
-          id=node1d1o64v4jx120,
-          label=<null>
-        ]
-      },
-      objectMaps=java.util.Collections$UnmodifiableSet@7a48e6e2{
-        com.taxonic.carml.model.impl.CarmlObjectMap@b40bb6e[
-          datatype=<null>,
-          language=<null>,
-          reference=amount,
-          inverseExpression=<null>,
-          template=<null>,
-          termType=<null>,
-          constant=<null>,
-          functionValue=<null>,
-          id=node1d1o64v4jx118,
-          label=<null>
-        ]
-      },
-      graphMaps=java.util.Collections$UnmodifiableSet@3a94964{
-        
-      },
-      id=node1d1o64v4jx117,
-      label=<null>
-    ]
-  },
-  id=http://example.com/base/TriplesMap1,
-  label=<null>
-]"
-RMLTC0012b-CSV,true,""
-RMLTC0007e-XML,false,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0006a-XML,false,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0008a-CSV,false,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0004b-CSV,false,"encountered disallowed term type [LITERAL]; allowed term types: [BLANK_NODE, IRI]"
-RMLTC0008c-CSV,true,""
-RMLTC0010c-XML,false,""
-RMLTC0007g-XML,false,""
-RMLTC0012a-CSV,true,""
-RMLTC0007f-XML,false,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0007e-JSON,false,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0010b-XML,false,""
-RMLTC0008b-CSV,true,""
-RMLTC0002b-JSON,true,""
-RMLTC0004a-CSV,true,""
-RMLTC0002c-JSON,true,""
-RMLTC0009b-CSV,false,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0007d-JSON,true,""
-RMLTC0011b-XML,true,""
-RMLTC0007b-XML,false,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0012d-CSV,false,"multiple values for property [http://www.w3.org/ns/r2rml#subjectMap], but corresponding java property is NOT an Iterable property"
-RMLTC0007c-XML,true,""
-RMLTC0007h-CSV,false,"encountered constant value of type class org.eclipse.rdf4j.model.impl.SimpleBNode, which is not allowed for this term map"
-RMLTC0009a-CSV,true,""
-RMLTC0007h-JSON,false,"encountered constant value of type class org.eclipse.rdf4j.model.impl.SimpleBNode, which is not allowed for this term map"
-RMLTC0007a-XML,true,""
-RMLTC0008a-JSON,false,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0004b-JSON,false,"encountered disallowed term type [LITERAL]; allowed term types: [BLANK_NODE, IRI]"
-RMLTC0007f-CSV,false,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0012a-XML,true,""
-RMLTC0004a-XML,true,""
-RMLTC0008b-XML,true,""
-RMLTC0008b-JSON,true,""
-RMLTC0010b-CSV,false,""
-RMLTC0004a-JSON,true,""
-RMLTC0010c-CSV,false,""
-RMLTC0008c-XML,true,""
-RMLTC0007g-CSV,false,""
-RMLTC0011b-JSON,true,""
-RMLTC0006a-CSV,false,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0007e-CSV,false,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0012b-XML,true,""
-RMLTC0007g-JSON,false,""
-RMLTC0012d-JSON,false,"multiple values for property [http://www.w3.org/ns/r2rml#subjectMap], but corresponding java property is NOT an Iterable property"
-RMLTC0004b-XML,false,"encountered disallowed term type [LITERAL]; allowed term types: [BLANK_NODE, IRI]"
-RMLTC0006a-JSON,false,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0008a-XML,false,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0010a-CSV,true,""
-RMLTC0012c-XML,false,"Subject map must be specified in triples map CarmlTriplesMap <http://example.com/base/TriplesMap1>:
- com.taxonic.carml.model.impl.CarmlTriplesMap@1df98368[
-  logicalSource=com.taxonic.carml.model.impl.CarmlLogicalSource@21ca139c[
-    source=persons.json,
-    iterator=/Persons/Person,
-    referenceFormulation=org.eclipse.rdf4j.model.impl.SimpleIRI@226f885f[
-      iriString=http://semweb.mmlab.be/ns/ql#XPath,
-      localNameIdx=-1
-    ],
-    id=node1d1o64v4jx602,
-    label=<null>
-  ],
-  subjectMap=<null>,
-  predicateObjectMaps=java.util.Collections$UnmodifiableSet@2cd2c8fe{
-    com.taxonic.carml.model.impl.CarmlPredicateObjectMap@7d61eccf[
-      predicateMaps=java.util.Collections$UnmodifiableSet@cc6460c{
-        com.taxonic.carml.model.impl.CarmlPredicateMap@52350abb[
-          reference=<null>,
-          inverseExpression=<null>,
-          template=<null>,
-          termType=<null>,
-          constant=org.eclipse.rdf4j.model.impl.SimpleIRI@681aad3b[
-            iriString=http://xmlns.com/foaf/0.1/name,
-            localNameIdx=-1
-          ],
-          functionValue=<null>,
-          id=node1d1o64v4jx607,
-          label=<null>
-        ]
-      },
-      objectMaps=java.util.Collections$UnmodifiableSet@1a6f2363{
-        com.taxonic.carml.model.impl.CarmlObjectMap@2427e004[
-          datatype=<null>,
-          language=<null>,
-          reference=<null>,
-          inverseExpression=<null>,
-          template={fname} {lname},
-          termType=com.taxonic.carml.model.TermType@53976f5c[
-            name=LITERAL,
-            ordinal=2
-          ],
-          constant=<null>,
-          functionValue=<null>,
-          id=node1d1o64v4jx604,
-          label=<null>
-        ]
-      },
-      graphMaps=java.util.Collections$UnmodifiableSet@5ebd56e9{
-        
-      },
-      id=node1d1o64v4jx603,
-      label=<null>
-    ],
-    com.taxonic.carml.model.impl.CarmlPredicateObjectMap@63f34b70[
-      predicateMaps=java.util.Collections$UnmodifiableSet@641856{
-        com.taxonic.carml.model.impl.CarmlPredicateMap@1b58ff9e[
-          reference=<null>,
-          inverseExpression=<null>,
-          template=<null>,
-          termType=<null>,
-          constant=org.eclipse.rdf4j.model.impl.SimpleIRI@2f66e802[
-            iriString=http://example.com/amount,
-            localNameIdx=-1
-          ],
-          functionValue=<null>,
-          id=node1d1o64v4jx608,
-          label=<null>
-        ]
-      },
-      objectMaps=java.util.Collections$UnmodifiableSet@56b78e55{
-        com.taxonic.carml.model.impl.CarmlObjectMap@76318a7d[
-          datatype=<null>,
-          language=<null>,
-          reference=amount,
-          inverseExpression=<null>,
-          template=<null>,
-          termType=<null>,
-          constant=<null>,
-          functionValue=<null>,
-          id=node1d1o64v4jx606,
-          label=<null>
-        ]
-      },
-      graphMaps=java.util.Collections$UnmodifiableSet@2a492f2a{
-        
-      },
-      id=node1d1o64v4jx605,
-      label=<null>
-    ]
-  },
-  id=http://example.com/base/TriplesMap1,
-  label=<null>
-]"
-RMLTC0007d-CSV,true,""
-RMLTC0009a-XML,true,""
-RMLTC0007f-JSON,false,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0007a-CSV,true,""
-RMLTC0002a-JSON,true,""
-RMLTC0007c-CSV,true,""
-RMLTC0012d-XML,false,"multiple values for property [http://www.w3.org/ns/r2rml#subjectMap], but corresponding java property is NOT an Iterable property"
-RMLTC0007h-XML,false,"encountered constant value of type class org.eclipse.rdf4j.model.impl.SimpleBNode, which is not allowed for this term map"
-RMLTC0011b-CSV,true,""
-RMLTC0009b-XML,false,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0008c-JSON,true,""
-RMLTC0007b-CSV,false,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0007a-JSON,true,""
-RMLTC0002b-XML,true,""
-RMLTC0012b-JSON,true,""
-RMLTC0000-JSON,true,""
-RMLTC0002c-XML,true,""
-RMLTC0009b-JSON,false,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0002a-XML,true,""
-RMLTC0010b-JSON,false,"Use bracket notion ['my prop'] if your property contains blank characters. position: 2"
-RMLTC0001a-JSON,true,""
-RMLTC0010c-JSON,false,"Use bracket notion ['my prop'] if your property contains blank characters. position: 2"
-RMLTC0002e-XML,false,"could not create file source for path [./src/main/resources/RMLTC0002e-XML/student2.xml]"
-RMLTC0001b-CSV,true,""
-RMLTC0002g-XML,false,"Namespace prefix 'rml' used but not defined [line 9]"
-RMLTC0003c-XML,true,""
-RMLTC0012c-JSON,false,"Subject map must be specified in triples map CarmlTriplesMap <http://example.com/base/TriplesMap1>:
- com.taxonic.carml.model.impl.CarmlTriplesMap@50b8ae8d[
-  logicalSource=com.taxonic.carml.model.impl.CarmlLogicalSource@255990cc[
-    source=persons.json,
-    iterator=$.persons[*],
-    referenceFormulation=org.eclipse.rdf4j.model.impl.SimpleIRI@51c929ae[
-      iriString=http://semweb.mmlab.be/ns/ql#JSONPath,
-      localNameIdx=-1
-    ],
-    id=node1d1o64v4jx842,
-    label=<null>
-  ],
-  subjectMap=<null>,
-  predicateObjectMaps=java.util.Collections$UnmodifiableSet@3c8bdd5b{
-    com.taxonic.carml.model.impl.CarmlPredicateObjectMap@29d2d081[
-      predicateMaps=java.util.Collections$UnmodifiableSet@40e4ea87{
-        com.taxonic.carml.model.impl.CarmlPredicateMap@58783f6c[
-          reference=<null>,
-          inverseExpression=<null>,
-          template=<null>,
-          termType=<null>,
-          constant=org.eclipse.rdf4j.model.impl.SimpleIRI@3a7b503d[
-            iriString=http://xmlns.com/foaf/0.1/name,
-            localNameIdx=-1
-          ],
-          functionValue=<null>,
-          id=node1d1o64v4jx847,
-          label=<null>
-        ]
-      },
-      objectMaps=java.util.Collections$UnmodifiableSet@512d92b{
-        com.taxonic.carml.model.impl.CarmlObjectMap@62c5bbdc[
-          datatype=<null>,
-          language=<null>,
-          reference=<null>,
-          inverseExpression=<null>,
-          template={fname} {lname},
-          termType=com.taxonic.carml.model.TermType@53976f5c[
-            name=LITERAL,
-            ordinal=2
-          ],
-          constant=<null>,
-          functionValue=<null>,
-          id=node1d1o64v4jx844,
-          label=<null>
-        ]
-      },
-      graphMaps=java.util.Collections$UnmodifiableSet@7bdf6bb7{
-        
-      },
-      id=node1d1o64v4jx843,
-      label=<null>
-    ],
-    com.taxonic.carml.model.impl.CarmlPredicateObjectMap@1bc53649[
-      predicateMaps=java.util.Collections$UnmodifiableSet@88d6f9b{
-        com.taxonic.carml.model.impl.CarmlPredicateMap@47d93e0d[
-          reference=<null>,
-          inverseExpression=<null>,
-          template=<null>,
-          termType=<null>,
-          constant=org.eclipse.rdf4j.model.impl.SimpleIRI@475b7792[
-            iriString=http://example.com/amount,
-            localNameIdx=-1
-          ],
-          functionValue=<null>,
-          id=node1d1o64v4jx848,
-          label=<null>
-        ]
-      },
-      objectMaps=java.util.Collections$UnmodifiableSet@751e664e{
-        com.taxonic.carml.model.impl.CarmlObjectMap@160c3ec1[
-          datatype=<null>,
-          language=<null>,
-          reference=amount,
-          inverseExpression=<null>,
-          template=<null>,
-          termType=<null>,
-          constant=<null>,
-          functionValue=<null>,
-          id=node1d1o64v4jx846,
-          label=<null>
-        ]
-      },
-      graphMaps=java.util.Collections$UnmodifiableSet@182b435b{
-        
-      },
-      id=node1d1o64v4jx845,
-      label=<null>
-    ]
-  },
-  id=http://example.com/base/TriplesMap1,
-  label=<null>
-]"
-RMLTC0000-XML,true,""
-RMLTC0001a-CSV,true,""
-RMLTC0002g-JSON,false,"Namespace prefix 'rml' used but not defined [line 9]"
+id,CARML
+RMLTC0009a-MySQL,FAILED
+RMLTC0002i-MySQL,FAILED
+RMLTC0002h-SPARQL,FAILED
+RMLTC0007b-SQLServer,FAILED
+RMLTC0002i-SQLServer,FAILED
+RMLTC0007g-PostgreSQL,FAILED
+RMLTC0002b-PostgreSQL,FAILED
+RMLTC0010a-PostgreSQL,FAILED
+RMLTC0007e-MySQL,FAILED
+RMLTC0001b-SPARQL,FAILED
+RMLTC0007c-JSON,PASSES
+RMLTC0010a-SQLServer,FAILED
+RMLTC0007a-SPARQL,FAILED
+RMLTC0002a-CSV,PASSES
+RMLTC0002c-CSV,FAILED
+RMLTC0011b-MySQL,FAILED
+RMLTC0001a-SQLServer,FAILED
+RMLTC0001b-JSON,PASSES
+RMLTC0003c-PostgreSQL,FAILED
+RMLTC0007g-MySQL,FAILED
+RMLTC0003b-MySQL,FAILED
+RMLTC0008b-SPARQL,FAILED
+RMLTC0002d-SQLServer,FAILED
+RMLTC0008c-SQLServer,FAILED
+RMLTC0002b-CSV,PASSES
+RMLTC0001b-MySQL,FAILED
+RMLTC0012b-PostgreSQL,FAILED
+RMLTC0009a-JSON,PASSES
+RMLTC0001a-XML,PASSES
+RMLTC0000-CSV,PASSES
+RMLTC0004a-SQLServer,FAILED
+RMLTC0010a-JSON,FAILED
+RMLTC0002j-PostgreSQL,FAILED
+RMLTC0009b-SPARQL,FAILED
+RMLTC0007d-SQLServer,FAILED
+RMLTC0007c-MySQL,FAILED
+RMLTC0000-PostgreSQL,FAILED
+RMLTC0003c-CSV,PASSES
+RMLTC0002e-JSON,FAILED
+RMLTC0007a-MySQL,FAILED
+RMLTC0002e-CSV,FAILED
+RMLTC0009a-SQLServer,FAILED
+RMLTC0007b-JSON,FAILED
+RMLTC0009a-PostgreSQL,FAILED
+RMLTC0002b-SQLServer,FAILED
+RMLTC0012a-JSON,PASSES
+RMLTC0001b-XML,PASSES
+RMLTC0003c-JSON,PASSES
+RMLTC0007c-SPARQL,FAILED
+RMLTC0000-MySQL,FAILED
+RMLTC0007b-PostgreSQL,FAILED
+RMLTC0006a-SPARQL,FAILED
+RMLTC0002g-PostgreSQL,FAILED
+RMLTC0007e-PostgreSQL,FAILED
+RMLTC0003c-MySQL,FAILED
+RMLTC0007f-MySQL,FAILED
+RMLTC0004b-PostgreSQL,FAILED
+RMLTC0007c-SQLServer,FAILED
+RMLTC0010c-PostgreSQL,FAILED
+RMLTC0007d-XML,PASSES
+RMLTC0012a-SQLServer,FAILED
+RMLTC0012c-CSV,FAILED
+RMLTC0012b-CSV,PASSES
+RMLTC0002j-MySQL,FAILED
+RMLTC0009b-MySQL,FAILED
+RMLTC0007e-XML,FAILED
+RMLTC0006a-XML,FAILED
+RMLTC0002h-SQLServer,FAILED
+RMLTC0008a-CSV,FAILED
+RMLTC0004b-CSV,FAILED
+RMLTC0008c-CSV,PASSES
+RMLTC0010c-XML,FAILED
+RMLTC0007g-XML,FAILED
+RMLTC0007g-SPARQL,FAILED
+RMLTC0007h-PostgreSQL,FAILED
+RMLTC0002h-MySQL,FAILED
+RMLTC0008b-SQLServer,FAILED
+RMLTC0004a-SPARQL,FAILED
+RMLTC0012a-CSV,PASSES
+RMLTC0003a-SQLServer,FAILED
+RMLTC0012b-SPARQL,FAILED
+RMLTC0007f-XML,FAILED
+RMLTC0002b-SPARQL,FAILED
+RMLTC0011b-PostgreSQL,FAILED
+RMLTC0003a-PostgreSQL,FAILED
+RMLTC0002e-SQLServer,FAILED
+RMLTC0007e-JSON,FAILED
+RMLTC0010b-XML,FAILED
+RMLTC0003a-MySQL,FAILED
+RMLTC0007d-MySQL,FAILED
+RMLTC0008b-CSV,PASSES
+RMLTC0002b-JSON,PASSES
+RMLTC0004a-CSV,PASSES
+RMLTC0002c-JSON,PASSES
+RMLTC0002h-PostgreSQL,FAILED
+RMLTC0009b-CSV,FAILED
+RMLTC0007e-SPARQL,FAILED
+RMLTC0007d-JSON,PASSES
+RMLTC0013a-JSON,FAILED
+RMLTC0011b-XML,PASSES
+RMLTC0008b-PostgreSQL,FAILED
+RMLTC0011b-SQLServer,FAILED
+RMLTC0007b-XML,FAILED
+RMLTC0007e-SQLServer,FAILED
+RMLTC0012d-CSV,FAILED
+RMLTC0006a-PostgreSQL,FAILED
+RMLTC0001a-MySQL,FAILED
+RMLTC0007c-XML,PASSES
+RMLTC0006a-SQLServer,FAILED
+RMLTC0007h-CSV,FAILED
+RMLTC0009a-CSV,PASSES
+RMLTC0007h-JSON,FAILED
+RMLTC0007a-XML,PASSES
+RMLTC0008a-JSON,FAILED
+RMLTC0002e-PostgreSQL,FAILED
+RMLTC0002c-SQLServer,FAILED
+RMLTC0001b-PostgreSQL,FAILED
+RMLTC0007h-SQLServer,FAILED
+RMLTC0004b-JSON,FAILED
+RMLTC0007b-MySQL,FAILED
+RMLTC0007f-CSV,FAILED
+RMLTC0012a-XML,PASSES
+RMLTC0008c-SPARQL,FAILED
+RMLTC0004a-XML,PASSES
+RMLTC0010c-SQLServer,FAILED
+RMLTC0008b-XML,PASSES
+RMLTC0008b-JSON,PASSES
+RMLTC0010b-CSV,FAILED
+RMLTC0008c-MySQL,FAILED
+RMLTC0009a-SPARQL,FAILED
+RMLTC0000-SPARQL,FAILED
+RMLTC0008a-PostgreSQL,FAILED
+RMLTC0012b-SQLServer,FAILED
+RMLTC0004a-JSON,PASSES
+RMLTC0010b-MySQL,FAILED
+RMLTC0010c-CSV,FAILED
+RMLTC0008c-XML,PASSES
+RMLTC0002b-MySQL,FAILED
+RMLTC0007g-CSV,FAILED
+RMLTC0011b-JSON,PASSES
+RMLTC0006a-CSV,FAILED
+RMLTC0007e-CSV,FAILED
+RMLTC0012b-XML,PASSES
+RMLTC0007g-JSON,FAILED
+RMLTC0012d-JSON,FAILED
+RMLTC0004b-XML,FAILED
+RMLTC0006a-JSON,FAILED
+RMLTC0008a-XML,FAILED
+RMLTC0008a-SQLServer,FAILED
+RMLTC0010a-CSV,PASSES
+RMLTC0003b-SQLServer,FAILED
+RMLTC0007c-PostgreSQL,FAILED
+RMLTC0001a-PostgreSQL,FAILED
+RMLTC0008a-MySQL,FAILED
+RMLTC0004a-MySQL,FAILED
+RMLTC0012c-XML,FAILED
+RMLTC0007d-CSV,PASSES
+RMLTC0001a-SPARQL,FAILED
+RMLTC0007h-MySQL,FAILED
+RMLTC0007b-SPARQL,FAILED
+RMLTC0007f-SQLServer,FAILED
+RMLTC0009a-XML,PASSES
+RMLTC0006a-MySQL,FAILED
+RMLTC0002d-MySQL,FAILED
+RMLTC0004a-PostgreSQL,FAILED
+RMLTC0007f-PostgreSQL,FAILED
+RMLTC0002g-SPARQL,FAILED
+RMLTC0007f-JSON,FAILED
+RMLTC0002c-PostgreSQL,FAILED
+RMLTC0007a-CSV,PASSES
+RMLTC0002a-JSON,PASSES
+RMLTC0007c-CSV,PASSES
+RMLTC0003b-PostgreSQL,FAILED
+RMLTC0012d-XML,FAILED
+RMLTC0007h-XML,FAILED
+RMLTC0008a-SPARQL,FAILED
+RMLTC0011b-CSV,PASSES
+RMLTC0009b-XML,FAILED
+RMLTC0008c-JSON,PASSES
+RMLTC0007b-CSV,FAILED
+RMLTC0012b-MySQL,FAILED
+RMLTC0010b-SQLServer,FAILED
+RMLTC0008c-PostgreSQL,FAILED
+RMLTC0010a-MySQL,FAILED
+RMLTC0007a-JSON,PASSES
+RMLTC0002b-XML,PASSES
+RMLTC0012b-JSON,PASSES
+RMLTC0002i-PostgreSQL,FAILED
+RMLTC0002j-SQLServer,FAILED
+RMLTC0002a-MySQL,FAILED
+RMLTC0000-JSON,PASSES
+RMLTC0007a-SQLServer,FAILED
+RMLTC0002c-XML,PASSES
+RMLTC0012a-PostgreSQL,FAILED
+RMLTC0007f-SPARQL,FAILED
+RMLTC0008b-MySQL,FAILED
+RMLTC0007a-PostgreSQL,FAILED
+RMLTC0002d-PostgreSQL,FAILED
+RMLTC0009b-JSON,FAILED
+RMLTC0003c-SQLServer,FAILED
+RMLTC0002a-XML,PASSES
+RMLTC0002g-SQLServer,FAILED
+RMLTC0004b-MySQL,FAILED
+RMLTC0010b-JSON,FAILED
+RMLTC0002c-MySQL,FAILED
+RMLTC0010c-MySQL,FAILED
+RMLTC0009b-PostgreSQL,FAILED
+RMLTC0001b-SQLServer,FAILED
+RMLTC0002g-MySQL,FAILED
+RMLTC0007g-SQLServer,FAILED
+RMLTC0007d-PostgreSQL,FAILED
+RMLTC0001a-JSON,PASSES
+RMLTC0002a-PostgreSQL,FAILED
+RMLTC0010c-JSON,FAILED
+RMLTC0010b-PostgreSQL,FAILED
+RMLTC0004b-SQLServer,FAILED
+RMLTC0000-SQLServer,FAILED
+RMLTC0002e-XML,FAILED
+RMLTC0001b-CSV,PASSES
+RMLTC0003c-SPARQL,FAILED
+RMLTC0012a-MySQL,FAILED
+RMLTC0002g-XML,FAILED
+RMLTC0003c-XML,PASSES
+RMLTC0004b-SPARQL,FAILED
+RMLTC0002a-SPARQL,FAILED
+RMLTC0012a-SPARQL,FAILED
+RMLTC0007d-SPARQL,FAILED
+RMLTC0012c-JSON,FAILED
+RMLTC0000-XML,PASSES
+RMLTC0009b-SQLServer,FAILED
+RMLTC0002e-MySQL,FAILED
+RMLTC0002a-SQLServer,FAILED
+RMLTC0001a-CSV,PASSES
+RMLTC0002g-JSON,FAILED
+RMLTC0007h-SPARQL,FAILED

@@ -24,12 +24,12 @@ public class RunCSVTest {
 
     private final static Logger LOG = Logger.getLogger("oeg.dia.fi.upm.es.RunCSVTest");
 
-    public static boolean RunTest(File dirTest, PrintWriter pw){
+    public static void RunTest(File dirTest, PrintWriter pw){
 
         File[] directories = dirTest.listFiles();
         File mappingFile=null, outputFile=null;
         File output = new File(dirTest.getAbsolutePath()+"/carmlOutput.ttl");
-        FileOutputStream foutput; String warning="";
+        FileOutputStream foutput; String test="";
         boolean comparator=false;
         try {
             foutput = new FileOutputStream(output);
@@ -68,9 +68,14 @@ public class RunCSVTest {
             comparator = Models.isomorphic(result,expected);
         }catch (Exception e){
             LOG.log(Level.WARNING,"Error "+e.getLocalizedMessage());
-            warning = e.getLocalizedMessage();
         }
-        pw.println(dirTest.getName()+","+comparator+",\""+warning.replaceAll("\n"," ")+"\"");
-        return comparator;
+        //ToDo check if the error is expected
+        if(comparator==true){
+           test = "PASSED";
+        }
+        else{
+            test = "FAILED";
+        }
+        pw.println(dirTest.getName()+","+test);
     }
 }

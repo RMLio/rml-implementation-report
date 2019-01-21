@@ -18,38 +18,39 @@ public class Carml
         File[] directories = new File ("./src/main/resources/").listFiles();
         try {
             PrintWriter writer = new PrintWriter("./src/main/carmlResults.csv", "UTF-8");
-            writer.println("id,result,warning");
+            writer.println("id,CARML");
             for (int i = 0 ; i<directories.length; i++){
                 File testDir = directories[i];
                 String nameDir = testDir.getName();
-                boolean result;
-
                 if(nameDir.matches(".*CSV")){
                     LOG.log(Level.INFO,"Running the test "+nameDir+"...");
-                    result = RunCSVTest.RunTest(testDir,writer);
+                    RunCSVTest.RunTest(testDir,writer);
                 }
                 else if(nameDir.matches(".*JSON")){
                     LOG.log(Level.INFO,"Running the test "+nameDir+"...");
-                    result = RunJSONTest.RunTest(testDir,writer);
+                    RunJSONTest.RunTest(testDir,writer);
                 }
                 else if(nameDir.matches(".*MySQL")){
                     //result = RunMySQLTest.RunTest(testDir);
+                    writer.println(testDir.getName()+",FAILED");
                 }
                 else if(nameDir.matches(".*PostgreSQL")){
                     //result = RunPostgreSQLTest.RunTest(testDir);
+                    writer.println(testDir.getName()+",FAILED");
                 }
                 else if(nameDir.matches(".*SPARQL")){
                     //result = RunSPARQLTest.RunTest(testDir);
+                    writer.println(testDir.getName()+",FAILED");
                 }
                 else if(nameDir.matches(".*SQLServer")){
                     //result = RunSQLServerTest.RunTest(testDir);
+                    writer.println(testDir.getName()+",FAILED");
                 }
                 else if(nameDir.matches(".*XML")){
                     LOG.log(Level.INFO,"Running the test "+nameDir+"...");
-                    result = RunXMLTest.RunTest(testDir,writer);
+                    RunXMLTest.RunTest(testDir,writer);
                 }
                 else{
-
                    LOG.log(Level.WARNING,"The "+nameDir+" test is not supported yet in CARML");
                 }
             }
