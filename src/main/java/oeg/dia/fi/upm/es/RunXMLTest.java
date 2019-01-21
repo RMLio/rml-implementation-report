@@ -7,10 +7,12 @@ import com.taxonic.carml.model.TriplesMap;
 import com.taxonic.carml.util.RmlMappingLoader;
 import com.taxonic.carml.vocab.Rdf;
 import org.eclipse.rdf4j.model.Model;
+import org.eclipse.rdf4j.model.util.Models;
 import org.eclipse.rdf4j.rio.RDFFormat;
 import org.eclipse.rdf4j.rio.Rio;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.nio.file.Paths;
 import java.util.Set;
@@ -24,15 +26,19 @@ public class RunXMLTest {
     public static boolean RunTest(File dirTest){
 
         File[] directories = dirTest.listFiles();
-        File mappingFile=null;
+        File mappingFile=null, outputFile=null;;
         File output = new File(dirTest.getAbsolutePath()+"/carmlOutput.ttl");
         FileOutputStream foutput;
+        boolean comparator = true;
         try {
             foutput = new FileOutputStream(output);
 
             for(int i=0; i<directories.length;i++){
                 if(directories[i].getName().matches(".*mapping.*")){
                     mappingFile = directories[i];
+                }
+                else if (directories[i].getName().matches("output\\.ttl")){
+                    outputFile = directories [i];
                 }
             }
 
@@ -50,10 +56,12 @@ public class RunXMLTest {
             Rio.write(result, foutput, RDFFormat.TURTLE);
             foutput.flush();
             foutput.close();
+            FileInputStream input =new FileInputStream(outputFile);
+            Model exected = Rio.parse(input,"",RDFFormat.TURTLE);
+            comparator = Models.isomorphic(result,exected);
         }catch (Exception e){
             LOG.log(Level.WARNING,"Error "+e.getMessage());
         }
-        //ToDo compare output with exepected output
-        return false;
+        return comparator;
     }
 }
