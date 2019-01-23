@@ -1,0 +1,10 @@
+
+<http://example.com/company/Alice> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://none.com/Bob> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://none.com/Bob/Charles> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://none.com/path/../Danny> a <http://xmlns.com/foaf/0.1/Person> .
+
+<http://none.com/Emily\u0020Smith> a <http://xmlns.com/foaf/0.1/Person> .

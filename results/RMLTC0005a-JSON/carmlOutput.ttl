@@ -1,0 +1,6 @@
+
+<http://example.com/Bob;Smith> a <http://xmlns.com/foaf/0.1/Person>;
+  <http://example.com/owes> "30.0E0" .
+
+<http://example.com/Sue;Jones> a <http://xmlns.com/foaf/0.1/Person>;
+  <http://example.com/owes> "20.0E0" .
