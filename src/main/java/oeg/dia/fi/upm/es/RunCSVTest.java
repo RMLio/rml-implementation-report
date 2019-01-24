@@ -57,12 +57,7 @@ public class RunCSVTest {
             foutput.close();
             FileInputStream input =new FileInputStream(outputFile);
             Model expected;
-            if (outputFile.getName().matches(".*\\.nq")) {
-                expected = Rio.parse(input, "", RDFFormat.NQUADS);
-            }
-            else {
-                expected = Rio.parse(input, "", RDFFormat.TURTLE);
-            }
+            expected = Rio.parse(input, "", RDFFormat.TURTLE);
             comparator = Models.isomorphic(result,expected);
         }catch (Exception e){
             LOG.log(Level.WARNING,"Error "+e.getLocalizedMessage());
