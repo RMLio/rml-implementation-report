@@ -2,37 +2,37 @@ id,CARMLERROR
 RMLTC0010a-JSON,"Use bracket notion ['my prop'] if your property contains blank characters. position: 2"
 RMLTC0007b-JSON,"Expected '.', found '<' [line 1]"
 RMLTC0012c-CSV,"Subject map must be specified in triples map CarmlTriplesMap <http://example.com/base/TriplesMap1>:
- com.taxonic.carml.model.impl.CarmlTriplesMap@235f4c10[
-  logicalSource=com.taxonic.carml.model.impl.CarmlLogicalSource@52b56a3e[
+ com.taxonic.carml.model.impl.CarmlTriplesMap@743cb8e0[
+  logicalSource=com.taxonic.carml.model.impl.CarmlLogicalSource@fd0e5b6[
     source=persons.csv,
     iterator=<null>,
-    referenceFormulation=org.eclipse.rdf4j.model.impl.SimpleIRI@fd0e5b6[
+    referenceFormulation=org.eclipse.rdf4j.model.impl.SimpleIRI@4eed46ee[
       iriString=http://semweb.mmlab.be/ns/ql#CSV,
       localNameIdx=-1
     ],
-    id=node1d1vnavaix175,
+    id=node1d201hqjcx176,
     label=<null>
   ],
   subjectMap=<null>,
-  predicateObjectMaps=java.util.Collections$UnmodifiableSet@36b0fcd5{
-    com.taxonic.carml.model.impl.CarmlPredicateObjectMap@4fad94a7[
-      predicateMaps=java.util.Collections$UnmodifiableSet@475835b1{
-        com.taxonic.carml.model.impl.CarmlPredicateMap@6326d182[
+  predicateObjectMaps=java.util.Collections$UnmodifiableSet@4fad94a7{
+    com.taxonic.carml.model.impl.CarmlPredicateObjectMap@475835b1[
+      predicateMaps=java.util.Collections$UnmodifiableSet@6326d182{
+        com.taxonic.carml.model.impl.CarmlPredicateMap@5241cf67[
           reference=<null>,
           inverseExpression=<null>,
           template=<null>,
           termType=<null>,
-          constant=org.eclipse.rdf4j.model.impl.SimpleIRI@5241cf67[
+          constant=org.eclipse.rdf4j.model.impl.SimpleIRI@716a7124[
             iriString=http://xmlns.com/foaf/0.1/name,
             localNameIdx=-1
           ],
           functionValue=<null>,
-          id=node1d1vnavaix180,
+          id=node1d201hqjcx181,
           label=<null>
         ]
       },
-      objectMaps=java.util.Collections$UnmodifiableSet@716a7124{
-        com.taxonic.carml.model.impl.CarmlObjectMap@77192705[
+      objectMaps=java.util.Collections$UnmodifiableSet@77192705{
+        com.taxonic.carml.model.impl.CarmlObjectMap@226642a5[
           datatype=<null>,
           language=<null>,
           reference=<null>,
@@ -44,34 +44,34 @@ RMLTC0012c-CSV,"Subject map must be specified in triples map CarmlTriplesMap <ht
           ],
           constant=<null>,
           functionValue=<null>,
-          id=node1d1vnavaix177,
+          id=node1d201hqjcx178,
           label=<null>
         ]
       },
-      graphMaps=java.util.Collections$UnmodifiableSet@4fe89c24{
+      graphMaps=java.util.Collections$UnmodifiableSet@55795845{
         
       },
-      id=node1d1vnavaix176,
+      id=node1d201hqjcx177,
       label=<null>
     ],
-    com.taxonic.carml.model.impl.CarmlPredicateObjectMap@55795845[
-      predicateMaps=java.util.Collections$UnmodifiableSet@3d08f3f5{
-        com.taxonic.carml.model.impl.CarmlPredicateMap@119f1f2a[
+    com.taxonic.carml.model.impl.CarmlPredicateObjectMap@3d08f3f5[
+      predicateMaps=java.util.Collections$UnmodifiableSet@119f1f2a{
+        com.taxonic.carml.model.impl.CarmlPredicateMap@1a1da881[
           reference=<null>,
           inverseExpression=<null>,
           template=<null>,
           termType=<null>,
-          constant=org.eclipse.rdf4j.model.impl.SimpleIRI@1a1da881[
+          constant=org.eclipse.rdf4j.model.impl.SimpleIRI@5b970f7[
             iriString=http://example.com/amount,
             localNameIdx=-1
           ],
           functionValue=<null>,
-          id=node1d1vnavaix181,
+          id=node1d201hqjcx182,
           label=<null>
         ]
       },
-      objectMaps=java.util.Collections$UnmodifiableSet@5b970f7{
-        com.taxonic.carml.model.impl.CarmlObjectMap@7fd4acee[
+      objectMaps=java.util.Collections$UnmodifiableSet@7fd4acee{
+        com.taxonic.carml.model.impl.CarmlObjectMap@165b8a71[
           datatype=<null>,
           language=<null>,
           reference=amount,
@@ -80,14 +80,14 @@ RMLTC0012c-CSV,"Subject map must be specified in triples map CarmlTriplesMap <ht
           termType=<null>,
           constant=<null>,
           functionValue=<null>,
-          id=node1d1vnavaix179,
+          id=node1d201hqjcx180,
           label=<null>
         ]
       },
-      graphMaps=java.util.Collections$UnmodifiableSet@165b8a71{
+      graphMaps=java.util.Collections$UnmodifiableSet@6175619b{
         
       },
-      id=node1d1vnavaix178,
+      id=node1d201hqjcx179,
       label=<null>
     ]
   },
@@ -112,37 +112,37 @@ RMLTC0012d-JSON,"multiple values for property [http://www.w3.org/ns/r2rml#subjec
 RMLTC0006a-JSON,"Expected '.', found '<' [line 1]"
 RMLTC0008a-XML,"Expected '.', found '<' [line 1]"
 RMLTC0012c-XML,"Subject map must be specified in triples map CarmlTriplesMap <http://example.com/base/TriplesMap1>:
- com.taxonic.carml.model.impl.CarmlTriplesMap@73393584[
-  logicalSource=com.taxonic.carml.model.impl.CarmlLogicalSource@31500940[
+ com.taxonic.carml.model.impl.CarmlTriplesMap@200606de[
+  logicalSource=com.taxonic.carml.model.impl.CarmlLogicalSource@750fe12e[
     source=persons.json,
     iterator=/Persons/Person,
-    referenceFormulation=org.eclipse.rdf4j.model.impl.SimpleIRI@1827a871[
+    referenceFormulation=org.eclipse.rdf4j.model.impl.SimpleIRI@f8908f6[
       iriString=http://semweb.mmlab.be/ns/ql#XPath,
       localNameIdx=-1
     ],
-    id=node1d1vnavaix717,
+    id=node1d201hqjcx725,
     label=<null>
   ],
   subjectMap=<null>,
-  predicateObjectMaps=java.util.Collections$UnmodifiableSet@48e64352{
-    com.taxonic.carml.model.impl.CarmlPredicateObjectMap@7249dadf[
-      predicateMaps=java.util.Collections$UnmodifiableSet@4362d7df{
-        com.taxonic.carml.model.impl.CarmlPredicateMap@66238be2[
+  predicateObjectMaps=java.util.Collections$UnmodifiableSet@3e587920{
+    com.taxonic.carml.model.impl.CarmlPredicateObjectMap@2ef8a8c3[
+      predicateMaps=java.util.Collections$UnmodifiableSet@24f43aa3{
+        com.taxonic.carml.model.impl.CarmlPredicateMap@63fd4873[
           reference=<null>,
           inverseExpression=<null>,
           template=<null>,
           termType=<null>,
-          constant=org.eclipse.rdf4j.model.impl.SimpleIRI@1c25b8a7[
+          constant=org.eclipse.rdf4j.model.impl.SimpleIRI@1e11bc55[
             iriString=http://xmlns.com/foaf/0.1/name,
             localNameIdx=-1
           ],
           functionValue=<null>,
-          id=node1d1vnavaix722,
+          id=node1d201hqjcx730,
           label=<null>
         ]
       },
-      objectMaps=java.util.Collections$UnmodifiableSet@200606de{
-        com.taxonic.carml.model.impl.CarmlObjectMap@750fe12e[
+      objectMaps=java.util.Collections$UnmodifiableSet@7544a1e4{
+        com.taxonic.carml.model.impl.CarmlObjectMap@70e0accd[
           datatype=<null>,
           language=<null>,
           reference=<null>,
@@ -154,34 +154,34 @@ RMLTC0012c-XML,"Subject map must be specified in triples map CarmlTriplesMap <ht
           ],
           constant=<null>,
           functionValue=<null>,
-          id=node1d1vnavaix719,
+          id=node1d201hqjcx727,
           label=<null>
         ]
       },
-      graphMaps=java.util.Collections$UnmodifiableSet@f8908f6{
+      graphMaps=java.util.Collections$UnmodifiableSet@7957dc72{
         
       },
-      id=node1d1vnavaix718,
+      id=node1d201hqjcx726,
       label=<null>
     ],
-    com.taxonic.carml.model.impl.CarmlPredicateObjectMap@3e587920[
-      predicateMaps=java.util.Collections$UnmodifiableSet@2ef8a8c3{
-        com.taxonic.carml.model.impl.CarmlPredicateMap@24f43aa3[
+    com.taxonic.carml.model.impl.CarmlPredicateObjectMap@6ab72419[
+      predicateMaps=java.util.Collections$UnmodifiableSet@3aacf32a{
+        com.taxonic.carml.model.impl.CarmlPredicateMap@4fdfa676[
           reference=<null>,
           inverseExpression=<null>,
           template=<null>,
           termType=<null>,
-          constant=org.eclipse.rdf4j.model.impl.SimpleIRI@63fd4873[
+          constant=org.eclipse.rdf4j.model.impl.SimpleIRI@82c57b3[
             iriString=http://example.com/amount,
             localNameIdx=-1
           ],
           functionValue=<null>,
-          id=node1d1vnavaix723,
+          id=node1d201hqjcx731,
           label=<null>
         ]
       },
-      objectMaps=java.util.Collections$UnmodifiableSet@1e11bc55{
-        com.taxonic.carml.model.impl.CarmlObjectMap@7544a1e4[
+      objectMaps=java.util.Collections$UnmodifiableSet@5be82d43{
+        com.taxonic.carml.model.impl.CarmlObjectMap@600b0b7[
           datatype=<null>,
           language=<null>,
           reference=amount,
@@ -190,14 +190,14 @@ RMLTC0012c-XML,"Subject map must be specified in triples map CarmlTriplesMap <ht
           termType=<null>,
           constant=<null>,
           functionValue=<null>,
-          id=node1d1vnavaix721,
+          id=node1d201hqjcx729,
           label=<null>
         ]
       },
-      graphMaps=java.util.Collections$UnmodifiableSet@70e0accd{
+      graphMaps=java.util.Collections$UnmodifiableSet@345e5a17{
         
       },
-      id=node1d1vnavaix720,
+      id=node1d201hqjcx728,
       label=<null>
     ]
   },
@@ -212,39 +212,38 @@ RMLTC0007b-CSV,"Expected '.', found '<' [line 1]"
 RMLTC0009b-JSON,"Expected '.', found '<' [line 1]"
 RMLTC0010b-JSON,"Use bracket notion ['my prop'] if your property contains blank characters. position: 2"
 RMLTC0010c-JSON,"Use bracket notion ['my prop'] if your property contains blank characters. position: 2"
-RMLTC0002g-XML,"Namespace prefix 'rml' used but not defined [line 9]"
 RMLTC0012c-JSON,"Subject map must be specified in triples map CarmlTriplesMap <http://example.com/base/TriplesMap1>:
- com.taxonic.carml.model.impl.CarmlTriplesMap@27f0ad19[
-  logicalSource=com.taxonic.carml.model.impl.CarmlLogicalSource@54e81b21[
+ com.taxonic.carml.model.impl.CarmlTriplesMap@30457e14[
+  logicalSource=com.taxonic.carml.model.impl.CarmlLogicalSource@1af1347d[
     source=persons.json,
     iterator=$.persons[*],
-    referenceFormulation=org.eclipse.rdf4j.model.impl.SimpleIRI@38d5b107[
+    referenceFormulation=org.eclipse.rdf4j.model.impl.SimpleIRI@632aa1a3[
       iriString=http://semweb.mmlab.be/ns/ql#JSONPath,
       localNameIdx=-1
     ],
-    id=node1d1vnavaix1023,
+    id=node1d201hqjcx1031,
     label=<null>
   ],
   subjectMap=<null>,
-  predicateObjectMaps=java.util.Collections$UnmodifiableSet@6650813a{
-    com.taxonic.carml.model.impl.CarmlPredicateObjectMap@44ea608c[
-      predicateMaps=java.util.Collections$UnmodifiableSet@50cf5a23{
-        com.taxonic.carml.model.impl.CarmlPredicateMap@450794b4[
+  predicateObjectMaps=java.util.Collections$UnmodifiableSet@20765ed5{
+    com.taxonic.carml.model.impl.CarmlPredicateObjectMap@3b582111[
+      predicateMaps=java.util.Collections$UnmodifiableSet@2899a8db{
+        com.taxonic.carml.model.impl.CarmlPredicateMap@1e8823d2[
           reference=<null>,
           inverseExpression=<null>,
           template=<null>,
           termType=<null>,
-          constant=org.eclipse.rdf4j.model.impl.SimpleIRI@273c947f[
+          constant=org.eclipse.rdf4j.model.impl.SimpleIRI@c1a4620[
             iriString=http://xmlns.com/foaf/0.1/name,
             localNameIdx=-1
           ],
           functionValue=<null>,
-          id=node1d1vnavaix1028,
+          id=node1d201hqjcx1036,
           label=<null>
         ]
       },
-      objectMaps=java.util.Collections$UnmodifiableSet@30457e14{
-        com.taxonic.carml.model.impl.CarmlObjectMap@1af1347d[
+      objectMaps=java.util.Collections$UnmodifiableSet@76b0ae1b{
+        com.taxonic.carml.model.impl.CarmlObjectMap@130a0f66[
           datatype=<null>,
           language=<null>,
           reference=<null>,
@@ -256,34 +255,34 @@ RMLTC0012c-JSON,"Subject map must be specified in triples map CarmlTriplesMap <h
           ],
           constant=<null>,
           functionValue=<null>,
-          id=node1d1vnavaix1025,
+          id=node1d201hqjcx1033,
           label=<null>
         ]
       },
-      graphMaps=java.util.Collections$UnmodifiableSet@632aa1a3{
+      graphMaps=java.util.Collections$UnmodifiableSet@4c432866{
         
       },
-      id=node1d1vnavaix1024,
+      id=node1d201hqjcx1032,
       label=<null>
     ],
-    com.taxonic.carml.model.impl.CarmlPredicateObjectMap@20765ed5[
-      predicateMaps=java.util.Collections$UnmodifiableSet@3b582111{
-        com.taxonic.carml.model.impl.CarmlPredicateMap@2899a8db[
+    com.taxonic.carml.model.impl.CarmlPredicateObjectMap@12365c88[
+      predicateMaps=java.util.Collections$UnmodifiableSet@6105f8a3{
+        com.taxonic.carml.model.impl.CarmlPredicateMap@2237bada[
           reference=<null>,
           inverseExpression=<null>,
           template=<null>,
           termType=<null>,
-          constant=org.eclipse.rdf4j.model.impl.SimpleIRI@1e8823d2[
+          constant=org.eclipse.rdf4j.model.impl.SimpleIRI@77e2a6e2[
             iriString=http://example.com/amount,
             localNameIdx=-1
           ],
           functionValue=<null>,
-          id=node1d1vnavaix1029,
+          id=node1d201hqjcx1037,
           label=<null>
         ]
       },
-      objectMaps=java.util.Collections$UnmodifiableSet@c1a4620{
-        com.taxonic.carml.model.impl.CarmlObjectMap@76b0ae1b[
+      objectMaps=java.util.Collections$UnmodifiableSet@5710768a{
+        com.taxonic.carml.model.impl.CarmlObjectMap@199e4c2b[
           datatype=<null>,
           language=<null>,
           reference=amount,
@@ -292,14 +291,14 @@ RMLTC0012c-JSON,"Subject map must be specified in triples map CarmlTriplesMap <h
           termType=<null>,
           constant=<null>,
           functionValue=<null>,
-          id=node1d1vnavaix1027,
+          id=node1d201hqjcx1035,
           label=<null>
         ]
       },
-      graphMaps=java.util.Collections$UnmodifiableSet@130a0f66{
+      graphMaps=java.util.Collections$UnmodifiableSet@6e0d4a8{
         
       },
-      id=node1d1vnavaix1026,
+      id=node1d201hqjcx1034,
       label=<null>
     ]
   },
