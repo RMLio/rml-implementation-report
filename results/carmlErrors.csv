@@ -1,12 +1,8 @@
 id,CARMLERROR
 RMLTC0020a-XML,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0002c-CSV,"Header name 'IDs' not found. Available columns are: [ID, Name]"
 RMLTC0020b-XML,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0015b-CSV,"null"
 RMLTC0019a-CSV,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0010a-JSON,"Use bracket notion ['my prop'] if your property contains blank characters. position: 2"
-RMLTC0002e-JSON,"could not create file source for path [./results/RMLTC0002e-JSON/student2.json]"
-RMLTC0002e-CSV,"could not create file source for path [./results/RMLTC0002e-CSV/student2.csv]"
 RMLTC0007b-JSON,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0015a-CSV,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0019b-CSV,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
@@ -20,7 +16,7 @@ RMLTC0012c-CSV,"Subject map must be specified in triples map CarmlTriplesMap <ht
       iriString=http://semweb.mmlab.be/ns/ql#CSV,
       localNameIdx=-1
     ],
-    id=node1d1vlg877x175,
+    id=node1d1vlqcqvx175,
     label=<null>
   ],
   subjectMap=<null>,
@@ -37,7 +33,7 @@ RMLTC0012c-CSV,"Subject map must be specified in triples map CarmlTriplesMap <ht
             localNameIdx=-1
           ],
           functionValue=<null>,
-          id=node1d1vlg877x180,
+          id=node1d1vlqcqvx180,
           label=<null>
         ]
       },
@@ -54,14 +50,14 @@ RMLTC0012c-CSV,"Subject map must be specified in triples map CarmlTriplesMap <ht
           ],
           constant=<null>,
           functionValue=<null>,
-          id=node1d1vlg877x177,
+          id=node1d1vlqcqvx177,
           label=<null>
         ]
       },
       graphMaps=java.util.Collections$UnmodifiableSet@226642a5{
         
       },
-      id=node1d1vlg877x176,
+      id=node1d1vlqcqvx176,
       label=<null>
     ],
     com.taxonic.carml.model.impl.CarmlPredicateObjectMap@7e809b79[
@@ -76,7 +72,7 @@ RMLTC0012c-CSV,"Subject map must be specified in triples map CarmlTriplesMap <ht
             localNameIdx=-1
           ],
           functionValue=<null>,
-          id=node1d1vlg877x181,
+          id=node1d1vlqcqvx181,
           label=<null>
         ]
       },
@@ -90,14 +86,14 @@ RMLTC0012c-CSV,"Subject map must be specified in triples map CarmlTriplesMap <ht
           termType=<null>,
           constant=<null>,
           functionValue=<null>,
-          id=node1d1vlg877x179,
+          id=node1d1vlqcqvx179,
           label=<null>
         ]
       },
       graphMaps=java.util.Collections$UnmodifiableSet@4fe89c24{
         
       },
-      id=node1d1vlg877x178,
+      id=node1d1vlqcqvx178,
       label=<null>
     ]
   },
@@ -108,7 +104,6 @@ RMLTC0019b-JSON,"Did not recognise RDF format object N-Quads (mimeTypes=applicat
 RMLTC0007e-XML,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0006a-XML,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0008a-CSV,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0004b-CSV,"encountered disallowed term type [LITERAL]; allowed term types: [BLANK_NODE, IRI]"
 RMLTC0007f-XML,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0007e-JSON,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0005a-CSV,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
@@ -120,13 +115,11 @@ RMLTC0007h-CSV,"encountered constant value of type class org.eclipse.rdf4j.model
 RMLTC0007h-JSON,"encountered constant value of type class org.eclipse.rdf4j.model.impl.SimpleBNode, which is not allowed for this term map"
 RMLTC0020b-JSON,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0008a-JSON,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0004b-JSON,"encountered disallowed term type [LITERAL]; allowed term types: [BLANK_NODE, IRI]"
 RMLTC0007f-CSV,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0020a-JSON,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0006a-CSV,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0007e-CSV,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0012d-JSON,"multiple values for property [http://www.w3.org/ns/r2rml#subjectMap], but corresponding java property is NOT an Iterable property"
-RMLTC0004b-XML,"encountered disallowed term type [LITERAL]; allowed term types: [BLANK_NODE, IRI]"
 RMLTC0006a-JSON,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0008a-XML,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0012c-XML,"Subject map must be specified in triples map CarmlTriplesMap <http://example.com/base/TriplesMap1>:
@@ -138,7 +131,7 @@ RMLTC0012c-XML,"Subject map must be specified in triples map CarmlTriplesMap <ht
       iriString=http://semweb.mmlab.be/ns/ql#XPath,
       localNameIdx=-1
     ],
-    id=node1d1vlg877x717,
+    id=node1d1vlqcqvx717,
     label=<null>
   ],
   subjectMap=<null>,
@@ -155,7 +148,7 @@ RMLTC0012c-XML,"Subject map must be specified in triples map CarmlTriplesMap <ht
             localNameIdx=-1
           ],
           functionValue=<null>,
-          id=node1d1vlg877x722,
+          id=node1d1vlqcqvx722,
           label=<null>
         ]
       },
@@ -172,14 +165,14 @@ RMLTC0012c-XML,"Subject map must be specified in triples map CarmlTriplesMap <ht
           ],
           constant=<null>,
           functionValue=<null>,
-          id=node1d1vlg877x719,
+          id=node1d1vlqcqvx719,
           label=<null>
         ]
       },
       graphMaps=java.util.Collections$UnmodifiableSet@48e64352{
         
       },
-      id=node1d1vlg877x718,
+      id=node1d1vlqcqvx718,
       label=<null>
     ],
     com.taxonic.carml.model.impl.CarmlPredicateObjectMap@7249dadf[
@@ -194,7 +187,7 @@ RMLTC0012c-XML,"Subject map must be specified in triples map CarmlTriplesMap <ht
             localNameIdx=-1
           ],
           functionValue=<null>,
-          id=node1d1vlg877x723,
+          id=node1d1vlqcqvx723,
           label=<null>
         ]
       },
@@ -208,14 +201,14 @@ RMLTC0012c-XML,"Subject map must be specified in triples map CarmlTriplesMap <ht
           termType=<null>,
           constant=<null>,
           functionValue=<null>,
-          id=node1d1vlg877x721,
+          id=node1d1vlqcqvx721,
           label=<null>
         ]
       },
       graphMaps=java.util.Collections$UnmodifiableSet@f8908f6{
         
       },
-      id=node1d1vlg877x720,
+      id=node1d1vlqcqvx720,
       label=<null>
     ]
   },
@@ -225,7 +218,6 @@ RMLTC0012c-XML,"Subject map must be specified in triples map CarmlTriplesMap <ht
 RMLTC0007f-JSON,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0012d-XML,"multiple values for property [http://www.w3.org/ns/r2rml#subjectMap], but corresponding java property is NOT an Iterable property"
 RMLTC0007h-XML,"encountered constant value of type class org.eclipse.rdf4j.model.impl.SimpleBNode, which is not allowed for this term map"
-RMLTC0015b-JSON,"null"
 RMLTC0019a-JSON,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0009b-XML,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0005a-XML,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
@@ -236,7 +228,6 @@ RMLTC0010b-JSON,"Use bracket notion ['my prop'] if your property contains blank 
 RMLTC0020a-CSV,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0005a-JSON,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0010c-JSON,"Use bracket notion ['my prop'] if your property contains blank characters. position: 2"
-RMLTC0002e-XML,"could not create file source for path [./results/RMLTC0002e-XML/student2.xml]"
 RMLTC0019b-XML,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0015a-XML,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
 RMLTC0002g-XML,"Namespace prefix 'rml' used but not defined [line 9]"
@@ -249,7 +240,7 @@ RMLTC0012c-JSON,"Subject map must be specified in triples map CarmlTriplesMap <h
       iriString=http://semweb.mmlab.be/ns/ql#JSONPath,
       localNameIdx=-1
     ],
-    id=node1d1vlg877x1023,
+    id=node1d1vlqcqvx1023,
     label=<null>
   ],
   subjectMap=<null>,
@@ -266,7 +257,7 @@ RMLTC0012c-JSON,"Subject map must be specified in triples map CarmlTriplesMap <h
             localNameIdx=-1
           ],
           functionValue=<null>,
-          id=node1d1vlg877x1028,
+          id=node1d1vlqcqvx1028,
           label=<null>
         ]
       },
@@ -283,14 +274,14 @@ RMLTC0012c-JSON,"Subject map must be specified in triples map CarmlTriplesMap <h
           ],
           constant=<null>,
           functionValue=<null>,
-          id=node1d1vlg877x1025,
+          id=node1d1vlqcqvx1025,
           label=<null>
         ]
       },
       graphMaps=java.util.Collections$UnmodifiableSet@450794b4{
         
       },
-      id=node1d1vlg877x1024,
+      id=node1d1vlqcqvx1024,
       label=<null>
     ],
     com.taxonic.carml.model.impl.CarmlPredicateObjectMap@273c947f[
@@ -305,7 +296,7 @@ RMLTC0012c-JSON,"Subject map must be specified in triples map CarmlTriplesMap <h
             localNameIdx=-1
           ],
           functionValue=<null>,
-          id=node1d1vlg877x1029,
+          id=node1d1vlqcqvx1029,
           label=<null>
         ]
       },
@@ -319,14 +310,14 @@ RMLTC0012c-JSON,"Subject map must be specified in triples map CarmlTriplesMap <h
           termType=<null>,
           constant=<null>,
           functionValue=<null>,
-          id=node1d1vlg877x1027,
+          id=node1d1vlqcqvx1027,
           label=<null>
         ]
       },
       graphMaps=java.util.Collections$UnmodifiableSet@2899a8db{
         
       },
-      id=node1d1vlg877x1026,
+      id=node1d1vlqcqvx1026,
       label=<null>
     ]
   },
@@ -334,5 +325,4 @@ RMLTC0012c-JSON,"Subject map must be specified in triples map CarmlTriplesMap <h
   label=<null>
 ]"
 RMLTC0019a-XML,"Did not recognise RDF format object N-Quads (mimeTypes=application/n-quads, text/x-nquads, text/nquads; ext=nq)"
-RMLTC0015b-XML,"null"
 RMLTC0002g-JSON,"could not create file source for path [./results/RMLTC0002g-JSON/student2.json]"

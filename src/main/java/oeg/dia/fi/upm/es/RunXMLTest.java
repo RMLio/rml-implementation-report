@@ -65,8 +65,10 @@ public class RunXMLTest {
             comparator = Models.isomorphic(result,expected);
         }catch (Exception e){
             LOG.log(Level.WARNING,"Error "+e.getMessage());
-            pw2.println(dirTest.getName()+",\""+e.getLocalizedMessage()+"\"");
             comparator = checkExpectedError(dirTest.getName());
+            if(!comparator){
+                pw2.println(dirTest.getName()+",\""+e.getLocalizedMessage()+"\"");
+            }
         }
         //ToDo check if the error is expected
         if(comparator){
