@@ -21,7 +21,7 @@ public class RunXMLTest {
 
     private final static Logger LOG = Logger.getLogger("oeg.dia.fi.upm.es.RunXMLTest");
 
-    public static void RunTest(File dirTest, PrintWriter pw){
+    public static void RunTest(File dirTest, PrintWriter pw, PrintWriter pw2){
 
         File[] directories = dirTest.listFiles();
         File mappingFile=null, outputFile=null;
@@ -65,6 +65,7 @@ public class RunXMLTest {
             comparator = Models.isomorphic(result,expected);
         }catch (Exception e){
             LOG.log(Level.WARNING,"Error "+e.getMessage());
+            pw2.println(dirTest.getName()+",\""+e.getLocalizedMessage()+"\"");
             comparator = checkExpectedError(dirTest.getName());
         }
         //ToDo check if the error is expected

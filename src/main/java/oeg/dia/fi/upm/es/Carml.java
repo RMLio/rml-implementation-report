@@ -21,17 +21,19 @@ public class Carml
         File[] directories = new File ("./results/").listFiles();
         try {
             PrintWriter writer = new PrintWriter("./results/carmlResults.csv", "UTF-8");
+            PrintWriter writer2 = new PrintWriter("./results/carmlErrors.csv", "UTF-8");
             writer.println("id,CARML");
+            writer2.println("id,CARMLERROR");
             for (int i = 0 ; i<directories.length; i++){
                 File testDir = directories[i];
                 String nameDir = testDir.getName();
                 if(nameDir.matches(".*CSV")){
                     LOG.log(Level.INFO,"Running the test "+nameDir+"...");
-                    RunCSVTest.RunTest(testDir,writer);
+                    RunCSVTest.RunTest(testDir,writer,writer2);
                 }
                 else if(nameDir.matches(".*JSON")){
                     LOG.log(Level.INFO,"Running the test "+nameDir+"...");
-                    RunJSONTest.RunTest(testDir,writer);
+                    RunJSONTest.RunTest(testDir,writer,writer2);
                 }
                 else if(nameDir.matches(".*MySQL")){
                     //result = RunMySQLTest.RunTest(testDir);
@@ -51,13 +53,14 @@ public class Carml
                 }
                 else if(nameDir.matches(".*XML")){
                     LOG.log(Level.INFO,"Running the test "+nameDir+"...");
-                    RunXMLTest.RunTest(testDir,writer);
+                    RunXMLTest.RunTest(testDir,writer,writer2);
                 }
                 else{
                    LOG.log(Level.WARNING,"The "+nameDir+" test is not supported yet in CARML");
                 }
             }
             writer.close();
+            writer2.close();
         } catch (Exception e) {
            LOG.log(Level.WARNING,"Problem with the result file "+e.getMessage());
         }
