@@ -64,12 +64,11 @@ public class RunJSONTest {
                 pw2.println(dirTest.getName()+",\""+e.getLocalizedMessage()+"\"");
             }
         }
-        //ToDo check if the error is expected
         if(comparator){
-            test = "PASSED";
+            test = "passed";
         }
         else{
-            test = "FAILED";
+            test = "failed";
         }
         pw.println(dirTest.getName()+","+test);
     }

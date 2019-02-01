@@ -18,15 +18,18 @@ public class Carml
 
     public static void main( String[] args )
     {
-        File[] directories = new File ("./results/").listFiles();
+        File[] directories = new File ("./test-cases/").listFiles();
         try {
-            PrintWriter writer = new PrintWriter("./results/carmlResults.csv", "UTF-8");
-            PrintWriter writer2 = new PrintWriter("./results/carmlErrors.csv", "UTF-8");
-            writer.println("id,CARML");
-            writer2.println("id,CARMLERROR");
+            PrintWriter writer = new PrintWriter("./output/results.csv", "UTF-8");
+            PrintWriter writer2 = new PrintWriter("./output/errors.csv", "UTF-8");
+            PrintWriter writer3 = new PrintWriter("./output/metadata.csv", "UTF-8");
+            writer.println("testid,result");
+            writer2.println("id,error");
+            writer3.println("tester,platform,testid");
             for (int i = 0 ; i<directories.length; i++){
                 File testDir = directories[i];
                 String nameDir = testDir.getName();
+                writer3.println("dchaves.oeg-upm.net,https://github.com/carml/carml,"+nameDir);
                 if(nameDir.matches(".*CSV")){
                     LOG.log(Level.INFO,"Running the test "+nameDir+"...");
                     RunCSVTest.RunTest(testDir,writer,writer2);
@@ -37,19 +40,19 @@ public class Carml
                 }
                 else if(nameDir.matches(".*MySQL")){
                     //result = RunMySQLTest.RunTest(testDir);
-                    writer.println(testDir.getName()+",NOT SUPPORTED");
+                    writer.println(testDir.getName()+",inapplicable");
                 }
                 else if(nameDir.matches(".*PostgreSQL")){
                     //result = RunPostgreSQLTest.RunTest(testDir);
-                    writer.println(testDir.getName()+",NOT SUPPORTED");
+                    writer.println(testDir.getName()+",inapplicable");
                 }
                 else if(nameDir.matches(".*SPARQL")){
                     //result = RunSPARQLTest.RunTest(testDir);
-                    writer.println(testDir.getName()+",NOT SUPPORTED");
+                    writer.println(testDir.getName()+",inapplicable");
                 }
                 else if(nameDir.matches(".*SQLServer")){
                     //result = RunSQLServerTest.RunTest(testDir);
-                    writer.println(testDir.getName()+",NOT SUPPORTED");
+                    writer.println(testDir.getName()+",inapplicable");
                 }
                 else if(nameDir.matches(".*XML")){
                     LOG.log(Level.INFO,"Running the test "+nameDir+"...");
