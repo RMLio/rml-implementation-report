@@ -89,8 +89,8 @@
             </tr>
             <tr>
                {% for result in results %}
-                <td><a href="{% result.testUri %}">{% result.testName %}</a></td>
-                <td><a href="{% result.outcomeUri %}">{% result.outcome %}</a></td>
+                <td><a href="{{ result.testUri }}">{{ result.testName }}</a></td>
+                <td><a href="{{ result.outcomeUri }}">{{ result.outcome }}</a></td>
                {% endfor %}
             </tr>
         </tbody>

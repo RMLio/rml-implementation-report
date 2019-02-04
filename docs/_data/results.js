@@ -10,22 +10,22 @@ const fs = require('fs');
 const https = require('https');
 
 module.exports = async () => {
-  const result = await getTestCases('./carml.ttl');
+  const result = await getResults('./_data/carml.ttl');
 
   return result;
 };
 
-async function getTestCases(path) {
+async function getResults(path) {
   const deferred = Q.defer();
   const rdfjsSource = await getRDFjsSourceFromFile(path);
   const engine = newEngine();
-  const testcases = [];
+  const results = [];
 
   engine.query(`SELECT * {
-      ?s a <http://www.w3.org/ns/earl#Assertion>;
+      ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#Assertion>;
       <http://www.w3.org/ns/earl#subject> ?platform;
         <http://www.w3.org/ns/earl#test> ?test .
-      ?test <http://www.w3.org/ns/earl#outcome> ?result 
+      ?test <http://www.w3.org/ns/earl#outcome> ?result .
   }`,
     {sources: [{type: 'rdfjsSource', value: rdfjsSource}]})
     .then(function (result) {
@@ -40,7 +40,7 @@ async function getTestCases(path) {
        //   outputStr = (await _getHTTP(output)).replace(/</g, '&lt;').replace(/>/g, '&gt;')
        // }
 
-        testcases.push({
+        results.push({
           testUri:  data['?test'].value,
           testName: data['?test'].value.replace("http://rml.io/test-case/",""),
           outcomeUri: data['?result'].value,
@@ -49,7 +49,7 @@ async function getTestCases(path) {
       });
 
       result.bindingsStream.on('end', function () {
-        testcases.sort( (a, b) => {
+        results.sort( (a, b) => {
           if (a.testName > b.testName) {
             return 1;
           } else {
@@ -57,7 +57,7 @@ async function getTestCases(path) {
           }
         });
 
-        deferred.resolve(testcases);
+        deferred.resolve(results);
       });
     });
 
@@ -119,7 +119,7 @@ function _getHTTP(url) {
       return;
     }
 
-    //res.setEncoding('utf8');
+    res.setEncoding('utf8');
     let rawData = '';
     res.on('data', (chunk) => { rawData += chunk; });
     res.on('end', () => {

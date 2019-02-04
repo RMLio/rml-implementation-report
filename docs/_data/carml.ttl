@@ -583,7 +583,7 @@ _:229 <http://www.w3.org/ns/earl#result> _:230.
 _:231 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#Assertion>.
 _:231 <http://www.w3.org/ns/earl#assertedBy> <dchaves.oeg-upm.net>.
 _:231 <http://www.w3.org/ns/earl#subject> <https://github.com/carml/carml>.
-_:231 <http://www.w3.org/ns/earl#test> <http://rml.io/test-case/RMLTC0007e-JSO>.
+_:231 <http://www.w3.org/ns/earl#test> <http://rml.io/test-case/RMLTC0007e-JSON>.
 _:1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:1 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:1 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
