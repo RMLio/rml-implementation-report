@@ -10,9 +10,9 @@ mappings:
     s:
     po:
       - [a, earl:Assertion]
-      - [earl:assertedBy, $(tester)]
-      - [earl:subject, $(platform)]
-      - [earl:test, http://rml.io/test-case/$(testid)]
+      - [earl:assertedBy, $(tester)~iri]
+      - [earl:subject, $(platform)~iri]
+      - [earl:test, http://rml.io/test-case/$(testid)~iri]
       - p: earl:result
         o:
           - mapping: results
@@ -27,5 +27,5 @@ mappings:
     s:
     po:
       - [a, earl:TestResult]
-      - [earl:mode, earl:automatic]
-      - [earl:outcome, http://www.w3.org/ns/earl#$(result)]
+      - [earl:mode, earl:automatic~iri]
+      - [earl:outcome, http://www.w3.org/ns/earl#$(result)~iri]

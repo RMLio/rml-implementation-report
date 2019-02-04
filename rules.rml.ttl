@@ -36,7 +36,7 @@
 :pom_1 rr:objectMap :om_1.
 :om_1 a rr:ObjectMap;
     rml:reference "tester";
-    rr:termType rr:Literal.
+    rr:termType rr:IRI.
 :pom_2 a rr:PredicateObjectMap.
 :map_metadata_0 rr:predicateObjectMap :pom_2.
 :pm_2 a rr:PredicateMap.
@@ -45,7 +45,7 @@
 :pom_2 rr:objectMap :om_2.
 :om_2 a rr:ObjectMap;
     rml:reference "platform";
-    rr:termType rr:Literal.
+    rr:termType rr:IRI.
 :pom_3 a rr:PredicateObjectMap.
 :map_metadata_0 rr:predicateObjectMap :pom_3.
 :pm_3 a rr:PredicateMap.
@@ -54,7 +54,7 @@
 :pom_3 rr:objectMap :om_3.
 :om_3 a rr:ObjectMap;
     rr:template "http://rml.io/test-case/{testid}";
-    rr:termType rr:Literal.
+    rr:termType rr:IRI.
 :pom_4 a rr:PredicateObjectMap.
 :map_metadata_0 rr:predicateObjectMap :pom_4.
 :pm_4 a rr:PredicateMap.
@@ -87,7 +87,7 @@
 :pom_6 rr:objectMap :om_6.
 :om_6 a rr:ObjectMap;
     rr:constant "http://www.w3.org/ns/earl#automatic";
-    rr:termType rr:Literal.
+    rr:termType rr:IRI.
 :pom_7 a rr:PredicateObjectMap.
 :map_results_0 rr:predicateObjectMap :pom_7.
 :pm_7 a rr:PredicateMap.
@@ -96,7 +96,7 @@
 :pom_7 rr:objectMap :om_7.
 :om_7 a rr:ObjectMap;
     rr:template "http://www.w3.org/ns/earl#{result}";
-    rr:termType rr:Literal.
+    rr:termType rr:IRI.
 :om_4 a rr:ObjectMap;
     rr:parentTriplesMap :map_results_0;
     rr:joinCondition :jc_0.
