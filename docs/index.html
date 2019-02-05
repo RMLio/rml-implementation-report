@@ -87,12 +87,12 @@
                <th>Test Case</th>
                <th><a href="https://github.com/carml/carml">CARML</a></th>
             </tr>
+            {% for result in results %}
             <tr>
-               {% for result in results %}
                 <td><a href="{{ result.testUri }}">{{ result.testName }}</a></td>
                 <td><a href="{{ result.outcomeUri }}">{{ result.outcome }}</a></td>
-               {% endfor %}
             </tr>
+            {% endfor %}
         </tbody>
     </table>
 
