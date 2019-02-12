@@ -170,6 +170,7 @@ RMLTC0010c-SQLServer,inapplicable
 RMLTC0016c-MySQL,inapplicable
 RMLTC0008b-XML,passed
 RMLTC0008b-JSON,passed
+RMLTC0012c-PostgreSQL,inapplicable
 RMLTC0010b-CSV,failed
 RMLTC0008c-MySQL,inapplicable
 RMLTC0009a-SPARQL,inapplicable
@@ -195,9 +196,10 @@ RMLTC0006a-JSON,failed
 RMLTC0008a-XML,failed
 RMLTC0008a-SQLServer,inapplicable
 RMLTC0020a-MySQL,inapplicable
-RMLTC0010a-CSV,passed
+RMLTC0010a-CSV,failed
 RMLTC0003b-SQLServer,inapplicable
 RMLTC0007c-PostgreSQL,inapplicable
+RMLTC0012d-MySQL,inapplicable
 RMLTC0016a-MySQL,inapplicable
 RMLTC0001a-PostgreSQL,inapplicable
 RMLTC0002f-PostgreSQL,inapplicable
@@ -207,6 +209,7 @@ RMLTC0012c-XML,failed
 RMLTC0007d-CSV,passed
 RMLTC0001a-SPARQL,inapplicable
 RMLTC0007h-MySQL,inapplicable
+RMLTC0012d-SQLServer,inapplicable
 RMLTC0016e-MySQL,inapplicable
 RMLTC0007b-SPARQL,inapplicable
 RMLTC0018a-PostgreSQL,inapplicable
@@ -256,6 +259,7 @@ RMLTC0020a-PostgreSQL,inapplicable
 RMLTC0000-JSON,passed
 RMLTC0007a-SQLServer,inapplicable
 RMLTC0002c-XML,passed
+RMLTC0012c-SQLServer,inapplicable
 RMLTC0020b-CSV,failed
 RMLTC0012a-PostgreSQL,inapplicable
 RMLTC0012e-MySQL,inapplicable
@@ -290,6 +294,7 @@ RMLTC0012e-SQLServer,inapplicable
 RMLTC0002a-PostgreSQL,inapplicable
 RMLTC0010c-JSON,failed
 RMLTC0010b-PostgreSQL,inapplicable
+RMLTC0012c-MySQL,inapplicable
 RMLTC0004b-SQLServer,inapplicable
 RMLTC0000-SQLServer,inapplicable
 RMLTC0002e-XML,passed
@@ -305,6 +310,7 @@ RMLTC0004b-SPARQL,inapplicable
 RMLTC0015b-SQLServer,inapplicable
 RMLTC0002a-SPARQL,inapplicable
 RMLTC0012a-SPARQL,inapplicable
+RMLTC0012d-PostgreSQL,inapplicable
 RMLTC0007d-SPARQL,inapplicable
 RMLTC0005b-PostgreSQL,inapplicable
 RMLTC0012c-JSON,failed

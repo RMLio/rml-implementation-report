@@ -52,7 +52,6 @@ dchaves.oeg-upm.net,https://github.com/carml/carml,RMLTC0000-PostgreSQL
 dchaves.oeg-upm.net,https://github.com/carml/carml,RMLTC0018a-SQLServer
 dchaves.oeg-upm.net,https://github.com/carml/carml,RMLTC0003c-CSV
 dchaves.oeg-upm.net,https://github.com/carml/carml,RMLTC0002e-JSON
-dchaves.oeg-upm.net,https://github.com/carml/carml,carmlResults.csv
 dchaves.oeg-upm.net,https://github.com/carml/carml,RMLTC0007a-MySQL
 dchaves.oeg-upm.net,https://github.com/carml/carml,RMLTC0002e-CSV
 dchaves.oeg-upm.net,https://github.com/carml/carml,RMLTC0009a-SQLServer
@@ -73,7 +72,6 @@ dchaves.oeg-upm.net,https://github.com/carml/carml,RMLTC0000-MySQL
 dchaves.oeg-upm.net,https://github.com/carml/carml,RMLTC0015a-PostgreSQL
 dchaves.oeg-upm.net,https://github.com/carml/carml,RMLTC0007b-PostgreSQL
 dchaves.oeg-upm.net,https://github.com/carml/carml,RMLTC0006a-SPARQL
-dchaves.oeg-upm.net,https://github.com/carml/carml,sortedResults.csv
 dchaves.oeg-upm.net,https://github.com/carml/carml,RMLTC0002g-PostgreSQL
 dchaves.oeg-upm.net,https://github.com/carml/carml,RMLTC0007e-PostgreSQL
 dchaves.oeg-upm.net,https://github.com/carml/carml,RMLTC0003c-MySQL
@@ -117,3 +115,5 @@ dchaves.oeg-upm.net,https://github.com/carml/carml,RMLTC0011b-PostgreSQL
 dchaves.oeg-upm.net,https://github.com/carml/carml,RMLTC0003a-PostgreSQL
 dchaves.oeg-upm.net,https://github.com/carml/carml,RMLTC0002e-SQLServer
 dchaves.oeg-upm.net,https://github.com/carml/carml,RMLTC0007e-JSON
+dchaves.oeg-upm.net,https://github.com/carml/carml,RMLTC0010b-XML
+dchaves.oeg-upm.net,https://github.com/carml/carml,RMLTC0003a-MySQL
