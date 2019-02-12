@@ -12,7 +12,7 @@
 
 :map_metadata_0 rml:logicalSource :source_0.
 :source_0 a rml:LogicalSource;
-    rml:source "output/metadata.csv";
+    rml:source "metadata.csv";
     rml:referenceFormulation ql:CSV.
 :map_metadata_0 a rr:TriplesMap;
     rdfs:label "metadata".
@@ -63,7 +63,7 @@
 :pom_4 rr:objectMap :om_4.
 :map_results_0 rml:logicalSource :source_1.
 :source_1 a rml:LogicalSource;
-    rml:source "output/results.csv";
+    rml:source "results.csv";
     rml:referenceFormulation ql:CSV.
 :map_results_0 a rr:TriplesMap;
     rdfs:label "results".
