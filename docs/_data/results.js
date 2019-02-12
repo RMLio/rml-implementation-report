@@ -20,6 +20,14 @@ module.exports = async () => {
       result.outcome = result.outcomeUri.replace("http://www.w3.org/ns/earl#","");
     });
 
+    results.sort((a,b) => {
+      if (a.testName > b.testName) {
+        return 1;
+      } else {
+        return -1;
+      }
+    });
+
     return results;
   });
 
