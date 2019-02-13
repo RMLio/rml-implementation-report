@@ -1,4 +1,4 @@
-package oeg.dia.fi.upm.es;
+package es.upm.fi.dia.oeg.rmlreport;
 
 import static org.junit.Assert.assertTrue;
 

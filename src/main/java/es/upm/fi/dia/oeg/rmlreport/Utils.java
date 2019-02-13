@@ -1,4 +1,4 @@
-package oeg.dia.fi.upm.es;
+package es.upm.fi.dia.oeg.rmlreport;
 
 import com.opencsv.CSVReader;
 

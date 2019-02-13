@@ -1,4 +1,4 @@
-package oeg.dia.fi.upm.es.CARML;
+package es.upm.fi.dia.oeg.rmlreport.CARML;
 
 import com.taxonic.carml.engine.RmlMapper;
 import com.taxonic.carml.logical_source_resolver.CsvResolver;

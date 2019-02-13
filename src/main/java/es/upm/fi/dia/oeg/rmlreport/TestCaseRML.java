@@ -1,7 +1,6 @@
-package oeg.dia.fi.upm.es;
+package es.upm.fi.dia.oeg.rmlreport;
 
-import com.taxonic.carml.engine.RmlMapper;
-import oeg.dia.fi.upm.es.CARML.TestCaseCARML;
+import es.upm.fi.dia.oeg.rmlreport.CARML.TestCaseCARML;
 import org.eclipse.rdf4j.model.Model;
 import org.eclipse.rdf4j.model.util.Models;
 import org.eclipse.rdf4j.rio.RDFFormat;
@@ -17,9 +16,11 @@ public class TestCaseRML {
     private PrintWriter pwResults, pwErrors, pwMetadata;
     private File[] directories;
     private String platform;
+    private String runner;
 
-    public TestCaseRML(String testPath, String platform){
+    public TestCaseRML(String testPath, String platform,String runner){
         directories = new File(testPath).listFiles();
+        this.runner = runner;
         this.platform = platform;
         try {
             pwResults = new PrintWriter("./output/"+this.platform+"/results.csv", "UTF-8");
@@ -56,7 +57,7 @@ public class TestCaseRML {
                 }
             }
             if(platform.equals("carml")){
-                pwMetadata.println("dchaves.oeg-upm.net,https://github.com/carml/carml," + testDir.getName());
+                pwMetadata.println(runner+",https://github.com/carml/carml," + testDir.getName());
                 TestCaseCARML testCaseCARML = new TestCaseCARML();
                 if(testDir.getName().equals("RMLTC0007b-JSON")){
                     System.out.printf("Hola");
