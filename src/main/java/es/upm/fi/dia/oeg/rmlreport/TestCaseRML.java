@@ -59,9 +59,6 @@ public class TestCaseRML {
             if(platform.equals("carml")){
                 pwMetadata.println(runner+",https://github.com/carml/carml," + testDir.getName());
                 TestCaseCARML testCaseCARML = new TestCaseCARML();
-                if(testDir.getName().equals("RMLTC0007b-JSON")){
-                    System.out.printf("Hola");
-                }
                 result = testCaseCARML.runUnitTestCaseCARML(testDir,mappingFile,output);
                 error = testCaseCARML.getError();
             }
@@ -81,8 +78,12 @@ public class TestCaseRML {
                }
             }
         }
-        if(testDir.getName().matches(".*SQLServer|.*SPARQL|.*PostgreSQL|.*MySQL") && platform.equals("carml")){
+        if(testDir.getName().matches(".*SQLServer|.*PostgreSQL|.*MySQL") && platform.equals("carml")){
             test = "inapplicable";
+            pwResults.println(testDir.getName()+","+test);
+        }
+        else if(testDir.getName().matches(".*SPARQL")){
+            LOG.log(Level.INFO,"The SPARQL test-cases are skipping at this moment");
         }
         else {
             if(errorFlag){
@@ -93,8 +94,9 @@ public class TestCaseRML {
             } else {
                 test = "failed";
             }
+            pwResults.println(testDir.getName()+","+test);
         }
-        pwResults.println(testDir.getName()+","+test);
+
     }
 
     public void close(){

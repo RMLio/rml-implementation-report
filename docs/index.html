@@ -86,23 +86,38 @@
             <tr>
                <th>Test Case</th>
                <th><a href="https://github.com/carml/carml">CARML</a></th>
+               <th><a href="http://rml.io">RMLMapper</a> </th>
             </tr>
-            {% for result in results %}
+            {% for result in carml %}
             <tr>
                 <td>
                     <a href="{{ result.testUri }}">{{ result.testName }}</a>
                 </td>
-                    {% if result.outcome == "passed" %}
-                    <td style="background-color: green;">
-                    {% endif %}
-                    {% if result.outcome == "failed" %}
-                    <td style="background-color: red;">
-                    {% endif %}
-                    {% if result.outcome == "inapplicable" %}
-                    <td style="background-color: grey;">
-                    {% endif %}
-                    <a href="{{ result.outcomeUri }}" style="color: white;">{{ result.outcome }}</a>
+                {% if result.outcome == "passed" %}
+                <td style="background-color: green;">
+                {% endif %}
+                {% if result.outcome == "failed" %}
+                <td style="background-color: red;">
+                {% endif %}
+                {% if result.outcome == "inapplicable" %}
+                <td style="background-color: grey;">
+                {% endif %}
+                <a href="{{ result.outcomeUri }}" style="color: white;">{{ result.outcome }}</a>
                 </td>
+                {% for r2 in rmlmapper %}
+                    {% if result.testName == r2.testName %}
+                        {% if r2.outcome == "passed" %}
+                        <td style="background-color: green;">
+                        {% endif %}
+                        {% if r2.outcome == "failed" %}
+                        <td style="background-color: red;">
+                        {% endif %}
+                        {% if r2.outcome == "inapplicable" %}
+                        <td style="background-color: grey;">
+                        {% endif %}
+                        <a href="{{ r2.outcomeUri }}" style="color: white;">{{ r2.outcome }}</a>
+                        {% endif %}
+                {% endfor %}
             </tr>
             {% endfor %}
         </tbody>

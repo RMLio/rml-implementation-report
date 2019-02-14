@@ -13,14 +13,15 @@ module.exports = async () => {
     "result": { "@id": "http://www.w3.org/ns/earl#result", "@singular": true },
     "outcomeUri": { "@id": "http://www.w3.org/ns/earl#outcome", "@singular": true },
     "Assertion": "http://www.w3.org/ns/earl#Assertion"
-  }, `{... on Assertion {platform testUri result { outcomeUri }} }`, results => {
-    results.forEach(result => {
+  }, `{... on Assertion {platform testUri result { outcomeUri }} }`, carml => {
+    carml.forEach(result => {
+      result.platform = result.platform;
       result.testName = result.testUri.replace("http://rml.io/test-case/","");
       result.outcomeUri = result.result.outcomeUri[0];
       result.outcome = result.outcomeUri.replace("http://www.w3.org/ns/earl#","");
     });
 
-    results.sort((a,b) => {
+  carml.sort((a,b) => {
       if (a.testName > b.testName) {
         return 1;
       } else {
@@ -28,7 +29,7 @@ module.exports = async () => {
       }
     });
 
-    return results;
+    return carml;
   });
 
   console.log(result);
