@@ -1744,7 +1744,7 @@ _:104 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:104 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
 _:106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:106 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
-_:106 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#failed>.
+_:106 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:108 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:108 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
@@ -1840,10 +1840,10 @@ _:170 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:170 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
 _:172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:172 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
-_:172 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#failed>.
+_:172 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:174 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
-_:174 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#failed>.
+_:174 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:176 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:176 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
@@ -1855,7 +1855,7 @@ _:180 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:180 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
 _:182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:182 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
-_:182 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#failed>.
+_:182 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:184 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:184 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
@@ -1888,7 +1888,7 @@ _:204 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:204 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
 _:207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:207 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
-_:207 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#failed>.
+_:207 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:210 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:210 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:210 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
@@ -1903,7 +1903,7 @@ _:216 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:216 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
 _:218 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:218 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
-_:218 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#failed>.
+_:218 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:220 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:220 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:220 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#failed>.
@@ -1936,7 +1936,7 @@ _:238 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:238 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
 _:240 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:240 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
-_:240 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#failed>.
+_:240 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:243 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:243 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:243 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
@@ -1954,7 +1954,7 @@ _:251 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:251 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
 _:253 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:253 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
-_:253 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#failed>.
+_:253 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:255 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:255 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:255 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
@@ -2002,7 +2002,7 @@ _:283 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:283 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
 _:285 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:285 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
-_:285 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#failed>.
+_:285 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:287 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:287 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:287 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
@@ -2041,7 +2041,7 @@ _:309 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:309 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
 _:311 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:311 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
-_:311 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#failed>.
+_:311 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:313 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:313 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:313 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
@@ -2107,10 +2107,10 @@ _:356 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:356 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:358 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:358 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
-_:358 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#failed>.
+_:358 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:360 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:360 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
-_:360 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#failed>.
+_:360 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:362 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:362 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:362 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
@@ -2128,10 +2128,10 @@ _:370 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:370 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:372 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:372 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
-_:372 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#failed>.
+_:372 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:374 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:374 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
-_:374 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#failed>.
+_:374 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:376 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:376 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:376 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
@@ -2209,7 +2209,7 @@ _:426 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:426 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
 _:429 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:429 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
-_:429 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#failed>.
+_:429 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:431 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:431 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:431 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
@@ -2257,7 +2257,7 @@ _:460 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:460 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:462 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:462 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
-_:462 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#failed>.
+_:462 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:464 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:464 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:464 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
@@ -2269,7 +2269,7 @@ _:468 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:468 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
 _:470 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:470 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
-_:470 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#failed>.
+_:470 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:472 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:472 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:472 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
@@ -2347,7 +2347,7 @@ _:521 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:521 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
 _:523 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:523 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
-_:523 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#failed>.
+_:523 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:525 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:525 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:525 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.

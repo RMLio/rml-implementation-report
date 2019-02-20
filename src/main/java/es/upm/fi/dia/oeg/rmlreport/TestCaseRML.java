@@ -5,6 +5,7 @@ import org.eclipse.rdf4j.model.Model;
 import org.eclipse.rdf4j.model.util.Models;
 import org.eclipse.rdf4j.rio.RDFFormat;
 import org.eclipse.rdf4j.rio.Rio;
+import org.eclipse.rdf4j.rio.nquads.*;
 
 import java.io.*;
 import java.util.logging.Level;
@@ -57,6 +58,9 @@ public class TestCaseRML {
                 }
             }
             if(platform.equals("carml")){
+                if(testDir.getName().equals("RMLTC0009b-JSON")){
+                    System.out.println("hello");
+                }
                 pwMetadata.println(runner+",https://github.com/carml/carml," + testDir.getName());
                 TestCaseCARML testCaseCARML = new TestCaseCARML();
                 result = testCaseCARML.runUnitTestCaseCARML(testDir,mappingFile,output);
@@ -66,7 +70,11 @@ public class TestCaseRML {
             //Todo else if equals Ontario
             //...
             FileInputStream input =new FileInputStream(outputFile);
-            Model expected = Rio.parse(input, "", RDFFormat.TURTLE);
+            Model expected = null;
+            if(outputFile.getName().matches(".*\\.nq"))
+              expected = Rio.parse(input, "", RDFFormat.NQUADS);
+            else
+                expected = Rio.parse(input, "", RDFFormat.TURTLE);
             comparator = Models.isomorphic(result,expected);
         }catch (Exception e){
             LOG.log(Level.WARNING,"Error "+e.getLocalizedMessage());
