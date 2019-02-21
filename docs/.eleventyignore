@@ -1,3 +1,7 @@
 node_modules
 package.json
 package-lock.json
+config
+my-sparql-engine
+graphqlexecutor.js
+snapshots
