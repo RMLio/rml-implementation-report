@@ -12,7 +12,7 @@ mappings:
       - [a, earl:Assertion]
       - [earl:assertedBy, $(tester)~iri]
       - [earl:subject, $(platform)~iri]
-      - [earl:test, http://rml.io/test-case/$(testid)~iri]
+      - [earl:test, http://rml.io/test-cases/#$(testid)~iri]
       - p: earl:result
         o:
           - mapping: results

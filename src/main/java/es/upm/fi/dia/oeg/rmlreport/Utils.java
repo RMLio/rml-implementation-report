@@ -8,7 +8,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Utils {
-    private final static Logger LOG = Logger.getLogger("oeg.dia.fi.upm.es.Utils");
+    private final static Logger LOG = Logger.getLogger("oeg.dia.fi.upm.es.rmlreport.Utils");
 
     public static boolean checkExpectedError(String testName){
         String[] line;

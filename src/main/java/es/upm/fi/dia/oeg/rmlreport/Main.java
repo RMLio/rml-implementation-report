@@ -12,7 +12,7 @@ import java.util.logging.Logger;
  */
 public class Main
 {
-    private final static Logger LOG = Logger.getLogger("oeg.dia.fi.upm.es.TestCaseRML");
+    private final static Logger LOG = Logger.getLogger("oeg.dia.fi.upm.es.rmlreport.Main");
 
     public static void main( String[] args )
     {

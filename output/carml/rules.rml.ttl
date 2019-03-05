@@ -53,7 +53,7 @@
 :pm_3 rr:constant earl:test.
 :pom_3 rr:objectMap :om_3.
 :om_3 a rr:ObjectMap;
-    rr:template "http://rml.io/test-case/{testid}";
+    rr:template "http://rml.io/test-cases/#{testid}";
     rr:termType rr:IRI.
 :pom_4 a rr:PredicateObjectMap.
 :map_metadata_0 rr:predicateObjectMap :pom_4.
