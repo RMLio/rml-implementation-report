@@ -62,6 +62,7 @@ rmltc0007h-json,passed
 rmltc0007h-xml,passed
 rmltc0008a-csv,failed
 rmltc0008a-xml,failed
+rmltc0008a-json,failed
 rmltc0008b-csv,passed
 rmltc0008b-json,passed
 rmltc0008b-xml,passed
@@ -70,6 +71,7 @@ rmltc0008c-json,passed
 rmltc0008c-xml,passed
 rmltc0009a-csv,passed
 rmltc0009a-xml,passed
+rmltc0009a-json,passed
 rmltc0009b-csv,failed
 rmltc0009b-json,failed
 rmltc0009b-xml,failed
@@ -229,7 +231,7 @@ rmltc0009a-sparql,inapplicable
 rmltc0000-sparql,inapplicable
 rmltc0008a-postgresql,inapplicable
 rmltc0012b-sqlserver,inapplicable
-rmltc0010b-mysql,inapplicableed
+rmltc0010b-mysql,inapplicable
 rmltc0019a-sqlserver,inapplicable
 rmltc0002b-mysql,inapplicable
 rmltc0002f-sqlserver,inapplicable
@@ -321,4 +323,3 @@ rmltc0009b-sqlserver,inapplicable
 rmltc0002e-mysql,inapplicable
 rmltc0002a-sqlserver,inapplicable
 rmltc0007h-sparql,inapplicable
-
