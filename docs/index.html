@@ -70,6 +70,13 @@
                 <td>Pano Maria</td>
                 <td><a href="https://github.com/carml/carml">https://github.com/carml/carml</a></td>
             </tr>
+            <tr>
+                <td>RocketRML</td>
+                <td>1.0.6</td>
+                <td>2019-06-28</td>
+                <td>Umutcan Simsek</td>
+                <td><a href="https://github.com/semantifyit/RocketRML">https://github.com/semantifyit/RocketRML</a></td>
+            </tr>
             <!--<tr>-->
                 <!--<td>GeoTriples</td>-->
                 <!--<td>Nikolaos Karalis</td>-->
@@ -93,6 +100,7 @@
                <th>Test Case</th>
                <th><a href="https://github.com/carml/carml">CARML</a></th>
                <th><a href="http://rml.io">RMLMapper</a> </th>
+               <th><a href="http://rml.io">RocketRML</a> </th>
             </tr>
             {% for result in carml %}
             <tr>
@@ -123,6 +131,21 @@
                         {% endif %}
                         <a href="{{ r2.outcomeUri }}" style="color: white;">{{ r2.outcome }}</a>
                         {% endif %}
+                {% endfor %}
+
+                {% for r2 in rocketrml %}
+                    {% if result.testName == r2.testName %}
+                        {% if r2.outcome == "passed" %}
+                        <td style="background-color: green;">
+                            {% endif %}
+                            {% if r2.outcome == "failed" %}
+                        <td style="background-color: red;">
+                            {% endif %}
+                            {% if r2.outcome == "inapplicable" %}
+                        <td style="background-color: grey;">
+                    {% endif %}
+                    <a href="{{ r2.outcomeUri }}" style="color: white;">{{ r2.outcome }}</a>
+                    {% endif %}
                 {% endfor %}
             </tr>
             {% endfor %}

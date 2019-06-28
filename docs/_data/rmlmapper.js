@@ -10,7 +10,6 @@ module.exports = async () => {
     "Assertion": "http://www.w3.org/ns/earl#Assertion"
     }, `{... on Assertion {platform testUri result { outcomeUri }} }`, rmlmapper => {
         rmlmapper.forEach(result => {
-            result.platform = result.platform;
             result.testName = result.testUri.replace("http://rml.io/test-cases/#","").toUpperCase();
             result.outcomeUri = result.result.outcomeUri[0];
             result.outcome = result.outcomeUri.replace("http://www.w3.org/ns/earl#","");

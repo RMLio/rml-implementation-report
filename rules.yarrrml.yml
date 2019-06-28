@@ -1,0 +1,31 @@
+prefixes:
+  rml-tc: http://rml.io/ns/test-case/
+  test: http://www.w3.org/2006/03/test-description#
+  earl: http://www.w3.org/ns/earl#
+
+mappings:
+  metadata:
+    sources:
+        - ['metadata.csv~csv']
+    s:
+    po:
+      - [a, earl:Assertion]
+      - [earl:assertedBy, $(tester)~iri]
+      - [earl:subject, $(platform)~iri]
+      - [earl:test, http://rml.io/test-cases/#$(testid)~iri]
+      - p: earl:result
+        o:
+          - mapping: results
+            condition:
+              function: equal
+              parameters:
+                - [str1, $(testid)]
+                - [str2, $(testid)]
+  results:
+    sources:
+        - ['results.csv~csv']
+    s:
+    po:
+      - [a, earl:TestResult]
+      - [earl:mode, earl:automatic~iri]
+      - [earl:outcome, http://www.w3.org/ns/earl#$(result)~iri]
