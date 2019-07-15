@@ -63,9 +63,6 @@ public class TestCaseRML {
                 result = testCaseCARML.runUnitTestCaseCARML(testDir,mappingFile,output);
                 error = testCaseCARML.getError();
             }
-            //ToDo Else if equals RMLMapper
-            //Todo else if equals Ontario
-            //...
             FileInputStream input =new FileInputStream(outputFile);
             Model expected = null;
             if(outputFile.getName().matches(".*\\.nq"))
@@ -89,6 +86,7 @@ public class TestCaseRML {
         }
         else if(testDir.getName().matches(".*SPARQL")){
             LOG.log(Level.INFO,"The SPARQL test-cases are skipping at this moment");
+           // pwResults.println(testDir.getName().toLowerCase()+",inapplicable");
         }
         else {
             if(errorFlag){

@@ -7,7 +7,7 @@ const GraphqlExecutor = require('../graphqlexecutor');
 
 module.exports = async () => {
   const executor = new GraphqlExecutor();
-  const result = await executor.query('./_data/carml.ttl', {
+  const result = await executor.query('./_data/carml.nt', {
     "platform": { "@id": "http://www.w3.org/ns/earl#subject", "@singular": true },
     "testUri": { "@id": "http://www.w3.org/ns/earl#test", "@singular": true },
     "result": { "@id": "http://www.w3.org/ns/earl#result", "@singular": true },
