@@ -6,7 +6,7 @@ prefixes:
 mappings:
   metadata:
     sources:
-        - ['metadata.csv~csv']
+        - ['results.csv~csv']
     s:
     po:
       - [a, earl:Assertion]
