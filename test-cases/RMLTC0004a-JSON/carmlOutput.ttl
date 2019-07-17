@@ -1,6 +1,0 @@
-
-<http://example.com/Venus> a <http://example.com/Student>;
-  <http://xmlns.com/foaf/0.1/name> "Venus" .
-
-<http://example.com/Tennis> a <http://example.com/Sport>;
-  <http://xmlns.com/foaf/0.1/name> "Tennis" .

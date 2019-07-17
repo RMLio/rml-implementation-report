@@ -1,6 +1,0 @@
-
-_:bnode-BobSmith <http://example.com/city> "London";
-  <http://xmlns.com/foaf/0.1/name> "Bob Smith" .
-
-_:bnode-SueJones <http://example.com/city> "Madrid";
-  <http://xmlns.com/foaf/0.1/name> "Sue Jones" .

@@ -1,8 +1,0 @@
-
-<http:> a <http://xmlns.com/foaf/0.1/Person> .
-
-<http://none.com/Bob> a <http://xmlns.com/foaf/0.1/Person> .
-
-<http://none.com/path> a <http://xmlns.com/foaf/0.1/Person> .
-
-<http://none.com/Emily\u0020Smith> a <http://xmlns.com/foaf/0.1/Person> .
