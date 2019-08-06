@@ -79,10 +79,17 @@
             </tr>
             <tr>
                 <td>SDM-RDFizer</td>
-                <td>3.0</td>
-                <td>2019-07-15</td>
+                <td>3.2</td>
+                <td>2019-08-04</td>
                 <td>Maria-Esther Vidal</td>
                 <td><a href="https://github.com/SDM-TIB/SDM-RDFizer">https://github.com/SDM-TIB/SDM-RDFizer</a></td>
+            </tr>
+            <tr>
+                <td>RMLStreamer</td>
+                <td>1.1</td>
+                <td>2019-07-29</td>
+                <td>Anastasia Dimou</td>
+                <td><a href="https://github.com/RMLio/RMLStreamer">https://github.com/RMLio/RMLStreamer</a></td>
             </tr>
             <!--<tr>-->
                 <!--<td>GeoTriples</td>-->
@@ -109,6 +116,7 @@
                <th><a href="https://github.com/rmlio/rmlmapper-java">RMLMapper</a> </th>
                <th><a href="https://github.com/semantifyit/RocketRML">RocketRML</a> </th>
                <th><a href="https://github.com/SDM-TIB/SDM-RDFizer">SDM-RDFizer</a> </th>
+               <th><a href="https://github.com/RMLio/RMLStreamer">RMLStreamer</a> </th>
             </tr>
             {% for result in carml %}
             <tr>
@@ -157,6 +165,21 @@
                 {% endfor %}
 
                 {% for r2 in sdmrdfizer %}
+                    {% if result.testName == r2.testName %}
+                        {% if r2.outcome == "passed" %}
+                        <td style="background-color: green;">
+                            {% endif %}
+                            {% if r2.outcome == "failed" %}
+                        <td style="background-color: red;">
+                            {% endif %}
+                            {% if r2.outcome == "inapplicable" %}
+                        <td style="background-color: grey;">
+                    {% endif %}
+                    <a href="{{ r2.outcomeUri }}" style="color: white;">{{ r2.outcome }}</a>
+                    {% endif %}
+                {% endfor %}
+
+                {% for r2 in rmlstreamer %}
                     {% if result.testName == r2.testName %}
                         {% if r2.outcome == "passed" %}
                         <td style="background-color: green;">
