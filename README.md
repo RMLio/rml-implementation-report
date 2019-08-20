@@ -2,7 +2,7 @@
 
 Do you have a RML engine? Do you want to test its conformance with the mapping language specification?
 
-1. Clone this repo
+1. Fork this repo
 2. Clone or download the test-cases: https://github.com/RMLio/rml-test-cases
 3. Run them over your tool and generate a results.csv file with your results. You can see and example of the output file [here](https://github.com/RMLio/rml-implementation-report/blob/master/tools-report/rmlmapper/results.csv)
 4. Create a folder into the tools-report folder with the name of your tool and copy your results.csv file there
