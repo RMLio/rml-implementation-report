@@ -4,15 +4,17 @@
   "description": "Documentation page for the RML test cases",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/@11ty/eleventy/cmd.js",
+    "serve": "node_modules/@11ty/eleventy/cmd.js --serve"
   },
-  "author": "Pieter Heyvaert <pheyvaer.heyvaert@ugent.be>",
+  "author": "Pieter Heyvaert <pieter.heyvaert@ugent.be>",
   "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^0.8.3",
-    "@comunica/actor-init-sparql-rdfjs": "^1.5.3",
+    "graphql-ld": "^1.1.0",
+    "graphql-ld-comunica": "^1.0.1",
     "n3": "^1.0.3",
-    "q": "^1.5.1",
-    "streamify-array": "^1.0.1"
+    "q": "^1.5.1"
   }
 }
