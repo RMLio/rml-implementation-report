@@ -1,38 +1,11 @@
 /**
- * author: Pieter Heyvaert (pheyvaer.heyvaert@ugent.be)
+ * author: Pieter Heyvaert (pieter.heyvaert@ugent.be)
  * Ghent University - imec - IDLab
  */
 
-const GraphqlExecutor = require('../graphqlexecutor');
+const TestResultFetcher = require('../test-result-fetcher');
 
 module.exports = async () => {
-  const executor = new GraphqlExecutor();
-  const result = await executor.query('./_data/rmlstreamer-static.nt', {
-    "platform": { "@id": "http://www.w3.org/ns/earl#subject", "@singular": true },
-    "testUri": { "@id": "http://www.w3.org/ns/earl#test", "@singular": true },
-    "result": { "@id": "http://www.w3.org/ns/earl#result", "@singular": true },
-    "outcomeUri": { "@id": "http://www.w3.org/ns/earl#outcome", "@singular": true },
-    "Assertion": "http://www.w3.org/ns/earl#Assertion"
-  }, `{... on Assertion {platform testUri result { outcomeUri }} }`, rmlstreamer => {
-    rmlstreamer.forEach(result => {
-      result.platform = result.platform;
-      result.testName = result.testUri.replace("http://rml.io/test-cases/#","").toUpperCase();
-      result.outcomeUri = result.result.outcomeUri[0];
-      result.outcome = result.outcomeUri.replace("http://www.w3.org/ns/earl#","");
-    });
-
-  rmlstreamer.sort((a,b) => {
-      if (a.testName > b.testName) {
-        return 1;
-      } else {
-        return -1;
-      }
-    });
-
-    return rmlstreamer;
-  });
-
-  console.log(result);
-
-  return result;
+  const fetcher = new TestResultFetcher();
+  return await fetcher.query('./_data/rmlstreamer-static.nt', 23003);
 };

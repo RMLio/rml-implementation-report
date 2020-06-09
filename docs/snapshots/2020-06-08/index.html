@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="utf-8"><meta name="generator" content="ReSpec 25.6.0"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html><html dir="ltr" lang="en"><head><meta charset="utf-8"><meta name="generator" content="ReSpec 25.6.0"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <title>RML Implementation Report</title>
     <style id="respec-mainstyle">@keyframes pop{0%{transform:scale(1,1)}25%{transform:scale(1.25,1.25);opacity:.75}100%{transform:scale(1,1)}}.hljs{background:0 0!important}a abbr,h1 abbr,h2 abbr,h3 abbr,h4 abbr,h5 abbr,h6 abbr{border:none}dfn{font-weight:700}a.internalDFN{color:inherit;border-bottom:1px solid #99c;text-decoration:none}a.externalDFN{color:inherit;border-bottom:1px dotted #ccc;text-decoration:none}a.bibref{text-decoration:none}.respec-offending-element:target{animation:pop .25s ease-in-out 0s 1}.respec-offending-element,a[href].respec-offending-element{text-decoration:red wavy underline}@supports not (text-decoration:red wavy underline){.respec-offending-element:not(pre){display:inline-block}.respec-offending-element{background:url(data:image/gif;base64,R0lGODdhBAADAPEAANv///8AAP///wAAACwAAAAABAADAEACBZQjmIAFADs=) bottom repeat-x}}#references :target{background:#eaf3ff;animation:pop .4s ease-in-out 0s 1}cite .bibref{font-style:normal}code{color:#c63501}th code{color:inherit}a[href].orcid{padding-left:4px;padding-right:4px}a[href].orcid>svg{margin-bottom:-2px}.toc a,.tof a{text-decoration:none}a .figno,a .secno{color:#000}ol.tof,ul.tof{list-style:none outside none}.caption{margin-top:.5em;font-style:italic}table.simple{border-spacing:0;border-collapse:collapse;border-bottom:3px solid #005a9c}.simple th{background:#005a9c;color:#fff;padding:3px 5px;text-align:left}.simple th a{color:#fff;padding:3px 5px;text-align:left}.simple th[scope=row]{background:inherit;color:inherit;border-top:1px solid #ddd}.simple td{padding:3px 10px;border-top:1px solid #ddd}.simple tr:nth-child(even){background:#f0f6ff}.section dd>p:first-child{margin-top:0}.section dd>p:last-child{margin-bottom:0}.section dd{margin-bottom:1em}.section dl.attrs dd,.section dl.eldef dd{margin-bottom:0}#issue-summary>ul,.respec-dfn-list{column-count:2}#issue-summary li,.respec-dfn-list li{list-style:none}details.respec-tests-details{margin-left:1em;display:inline-block;vertical-align:top}details.respec-tests-details>*{padding-right:2em}details.respec-tests-details[open]{z-index:999999;position:absolute;border:thin solid #cad3e2;border-radius:.3em;background-color:#fff;padding-bottom:.5em}details.respec-tests-details[open]>summary{border-bottom:thin solid #cad3e2;padding-left:1em;margin-bottom:1em;line-height:2em}details.respec-tests-details>ul{width:100%;margin-top:-.3em}details.respec-tests-details>li{padding-left:1em}a[href].self-link:hover{opacity:1;text-decoration:none;background-color:transparent}h2,h3,h4,h5,h6{position:relative}aside.example .marker>a.self-link{color:inherit}h2>a.self-link,h3>a.self-link,h4>a.self-link,h5>a.self-link,h6>a.self-link{border:none;color:inherit;font-size:83%;height:2em;left:-1.6em;opacity:.5;position:absolute;text-align:center;text-decoration:none;top:0;transition:opacity .2s;width:2em}h2>a.self-link::before,h3>a.self-link::before,h4>a.self-link::before,h5>a.self-link::before,h6>a.self-link::before{content:"§";display:block}@media (max-width:767px){dd{margin-left:0}h2>a.self-link,h3>a.self-link,h4>a.self-link,h5>a.self-link,h6>a.self-link{left:auto;top:auto}}@media print{.removeOnSave{display:none}}</style>
@@ -10,7 +10,7 @@
     {
       "name": "Pieter Heyvaert",
       "company": "Ghent University - IDLab, imec",
-      "mailto": "pheyvaer.heyvaert@ugent.be"
+      "mailto": "pieter.heyvaert@ugent.be"
     },
     {
       "name": "Anastasia Dimou",
@@ -26,8 +26,8 @@
   "publishISODate": "2020-06-09T00:00:00.000Z",
   "generatedSubtitle": "Unofficial Draft 09 June 2020"
 }</script><link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2016/W3C-UD"></head>
-<body class="h-entry informative"><div class="head">
-    <a class="logo" href="https://www.w3.org/"><img alt="W3C" width="72" height="48" src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C"></a> <h1 id="title" class="title">RML Implementation Report</h1>
+<body class="h-entry informative" cz-shortcut-listen="true"><div class="head">
+    <a class="logo" href="https://www.w3.org/"><img alt="W3C" src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C" width="72" height="48"></a> <h1 id="title" class="title">RML Implementation Report</h1>
     
     <h2>
       Unofficial Draft
@@ -42,7 +42,7 @@
       
       
       <dt>Editors:</dt>
-      <dd class="p-author h-card vcard"><a class="ed_mailto u-email email p-name" href="mailto:pheyvaer.heyvaert@ugent.be">Pieter Heyvaert</a> (Ghent University - IDLab, imec) </dd><dd class="p-author h-card vcard"><span class="p-name fn">Anastasia Dimou</span> (Ghent University - IDLab, imec) </dd><dd class="p-author h-card vcard"><span class="p-name fn">David Chaves-Fraga</span> (Universidad Politécnica de Madrid) </dd>
+      <dd class="p-author h-card vcard"><a class="ed_mailto u-email email p-name" href="mailto:pieter.heyvaert@ugent.be">Pieter Heyvaert</a> (Ghent University - IDLab, imec) </dd><dd class="p-author h-card vcard"><span class="p-name fn">Anastasia Dimou</span> (Ghent University - IDLab, imec) </dd><dd class="p-author h-card vcard"><span class="p-name fn">David Chaves-Fraga</span> (Universidad Politécnica de Madrid) </dd>
       
       
       <dt>Participate:</dt><dd>
@@ -63,7 +63,10 @@
           <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" class="subfoot">Creative Commons Attribution 4.0 License</a>.
         </p>
     <hr title="Separator for header">
-  </div>
+  </div><script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='/browser-sync/browser-sync-client.js?v=2.26.7'><\/script>".replace("HOST", location.hostname));
+//]]></script><script async="" src="/browser-sync/browser-sync-client.js?v=2.26.7"></script>
+
 <section id="abstract" class="introductory"><h2>Abstract</h2>
     <p>
         This document reports on implementations of RML [<a href="http://rml.io/spec.html">RML</a>] specification. The main purpose of this document is to show that each feature of RML has been covered or not by the implementations. To evaluate the coverage of an implementation's features, the RML Test Cases [<a href="https://github.com/rmlio/rml-test-cases">RMLTC</a>] are used as point of reference.
@@ -4929,4 +4932,4 @@
 
 <p role="navigation" id="back-to-top">
     <a href="#title"><abbr title="Back to Top">↑</abbr></a>
-  </p><script src="https://www.w3.org/scripts/TR/2016/fixup.js"></script></body></html>
+  </p><script src="https://www.w3.org/scripts/TR/2016/fixup.js"></script><span id="buffer-extension-hover-button" style="display: none; position: absolute; z-index: 8675309; width: 100px; height: 25px; background-image: url(&quot;moz-extension://af997da0-e7b8-49c3-8e17-40b7450d307c/data/shared/img/buffer-hover-icon@1x.png&quot;); background-size: 100px 25px; opacity: 0.9; cursor: pointer;"></span></body></html>
