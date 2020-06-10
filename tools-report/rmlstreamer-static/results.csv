@@ -218,12 +218,12 @@ RMLTC0010b-MySQL,inapplicable
 RMLTC0010b-PostgreSQL,inapplicable
 RMLTC0010b-SQLServer,inapplicable
 RMLTC0010b-XML,passed
-RMLTC0010c-CSV,failed
-RMLTC0010c-JSON,failed
+RMLTC0010c-CSV,passed
+RMLTC0010c-JSON,fassed
 RMLTC0010c-MySQL,inapplicable
 RMLTC0010c-PostgreSQL,inapplicable
 RMLTC0010c-SQLServer,inapplicable
-RMLTC0010c-XML,failed
+RMLTC0010c-XML,passed
 RMLTC0011a-MySQL,inapplicable
 RMLTC0011a-PostgreSQL,inapplicable
 RMLTC0011a-SQLServer,inapplicable
