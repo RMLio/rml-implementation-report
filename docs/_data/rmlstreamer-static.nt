@@ -2280,7 +2280,7 @@ _:439 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:439 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:441 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:441 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
-_:441 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#fassed>.
+_:441 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#passed>.
 _:443 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/earl#TestResult>.
 _:443 <http://www.w3.org/ns/earl#mode> <http://www.w3.org/ns/earl#automatic>.
 _:443 <http://www.w3.org/ns/earl#outcome> <http://www.w3.org/ns/earl#inapplicable>.
