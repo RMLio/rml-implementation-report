@@ -219,7 +219,7 @@ RMLTC0010b-PostgreSQL,inapplicable
 RMLTC0010b-SQLServer,inapplicable
 RMLTC0010b-XML,passed
 RMLTC0010c-CSV,passed
-RMLTC0010c-JSON,fassed
+RMLTC0010c-JSON,passed
 RMLTC0010c-MySQL,inapplicable
 RMLTC0010c-PostgreSQL,inapplicable
 RMLTC0010c-SQLServer,inapplicable
