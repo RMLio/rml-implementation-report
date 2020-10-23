@@ -12,8 +12,8 @@
   "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^0.8.3",
-    "graphql-ld": "^1.1.0",
-    "graphql-ld-comunica": "^1.0.1",
+    "graphql-ld": "^1.2.0",
+    "graphql-ld-comunica": "^1.1.2",
     "n3": "^1.0.3",
     "q": "^1.5.1"
   }
