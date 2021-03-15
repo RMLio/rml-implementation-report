@@ -57,7 +57,7 @@
                 <th>Web page</th>
             </tr>
             <tr>
-                <td>RML-Mapper</td>
+                <td>RMLMapper</td>
                 <td>4.9.0</td>
                 <td>2020-09-17</td>
                 <td>Anastasia Dimou</td>
@@ -91,6 +91,13 @@
                 <td>Anastasia Dimou</td>
                 <td><a href="https://github.com/RMLio/RMLStreamer">https://github.com/RMLio/RMLStreamer</a></td>
             </tr>
+            <tr>
+                <td>Chimera</td>
+                <td>2.1</td>
+                <td>2021-02-18</td>
+                <td>Mario Scrocca</td>
+                <td><a href="https://github.com/cefriel/chimera">https://github.com/cefriel/chimera</a></td>
+            </tr>
             <!--<tr>-->
                 <!--<td>GeoTriples</td>-->
                 <!--<td>Nikolaos Karalis</td>-->
@@ -117,6 +124,7 @@
                <th><a href="https://github.com/semantifyit/RocketRML">RocketRML</a> </th>
                <th><a href="https://github.com/SDM-TIB/SDM-RDFizer">SDM-RDFizer</a> </th>
                <th><a href="https://github.com/RMLio/RMLStreamer">RMLStreamer</a> </th>
+               <th><a href="https://github.com/cefriel/chimera">Chimera</a> </th>
             </tr>
             {% for result in carml %}
             <tr>
@@ -192,6 +200,22 @@
                     {% endif %}
                     <a href="{{ r2.outcomeUri }}" style="color: white;">{{ r2.outcome }}</a>
                     {% endif %}
+                {% endfor %}
+
+                {% for r2 in chimera %}
+                    {% if result.testName == r2.testName %}
+                        {% if r2.outcome == "passed" %}
+                            <td style="background-color: green;">
+                        {% endif %}
+                        {% if r2.outcome == "failed" %}
+                            <td style="background-color: red;">
+                        {% endif %}
+                        {% if r2.outcome == "inapplicable" %}
+                            <td style="background-color: grey;">
+                        {% endif %}
+
+                        <a href="{{ r2.outcomeUri }}" style="color: white;">{{ r2.outcome }}</a>
+                        {% endif %}
                 {% endfor %}
             </tr>
             {% endfor %}
