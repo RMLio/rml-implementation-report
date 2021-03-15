@@ -1,0 +1,3 @@
+RMLTC0002c-*, Error expected but Chimera execution ends normally (intended behaviour, skip and warning message if a logical reference is not found). Empty KG obtained because no other triple maps are defined.
+RMLTC0002e-*, Error expected but Chimera execution ends normally (intended behaviour, skip and warning message if a logical source is not found). Empty KG obtained because no other triple maps are defined.
+RMLTC0004b-*, Error expected but Chimera execution ends normally (inherited by RML-Mapper implementation).
