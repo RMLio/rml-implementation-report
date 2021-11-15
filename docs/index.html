@@ -98,6 +98,13 @@
                 <td>Mario Scrocca</td>
                 <td><a href="https://github.com/cefriel/chimera">https://github.com/cefriel/chimera</a></td>
             </tr>
+            <tr>
+                <td>Morph-KGC</td>
+                <td>1.4.0</td>
+                <td>2021-11-11</td>
+                <td>Julián Arenas-Guerrero</td>
+                <td><a href="https://github.com/oeg-upm/Morph-KGC">https://github.com/oeg-upm/Morph-KGC</a></td>
+            </tr>
             <!--<tr>-->
                 <!--<td>GeoTriples</td>-->
                 <!--<td>Nikolaos Karalis</td>-->
@@ -125,6 +132,7 @@
                <th><a href="https://github.com/SDM-TIB/SDM-RDFizer">SDM-RDFizer</a> </th>
                <th><a href="https://github.com/RMLio/RMLStreamer">RMLStreamer</a> </th>
                <th><a href="https://github.com/cefriel/chimera">Chimera</a> </th>
+               <th><a href="https://github.com/oeg-upm/Morph-KGC">Morph-KGC</a> </th>
             </tr>
             {% for result in carml %}
             <tr>
@@ -216,6 +224,22 @@
 
                         <a href="{{ r2.outcomeUri }}" style="color: white;">{{ r2.outcome }}</a>
                         {% endif %}
+                {% endfor %}
+
+                {% for r2 in morphkgc %}
+                    {% if result.testName == r2.testName %}
+                    {% if r2.outcome == "passed" %}
+                    <td style="background-color: green;">
+                        {% endif %}
+                        {% if r2.outcome == "failed" %}
+                    <td style="background-color: red;">
+                        {% endif %}
+                        {% if r2.outcome == "inapplicable" %}
+                    <td style="background-color: grey;">
+                        {% endif %}
+
+                    <a href="{{ r2.outcomeUri }}" style="color: white;">{{ r2.outcome }}</a>
+                    {% endif %}
                 {% endfor %}
             </tr>
             {% endfor %}
