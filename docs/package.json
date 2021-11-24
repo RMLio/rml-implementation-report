@@ -5,13 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node_modules/@11ty/eleventy/cmd.js",
-    "serve": "node_modules/@11ty/eleventy/cmd.js --serve"
+    "build": "node node_modules/@11ty/eleventy/cmd.js",
+    "serve": "node node_modules/@11ty/eleventy/cmd.js --serve"
   },
   "author": "Pieter Heyvaert <pieter.heyvaert@ugent.be>",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^0.8.3",
+    "@11ty/eleventy": "^0.12.1",
     "graphql-ld": "^1.2.0",
     "graphql-ld-comunica": "^1.1.2",
     "n3": "^1.0.3",

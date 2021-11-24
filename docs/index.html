@@ -55,66 +55,22 @@
                 <th>Test date</th>
                 <th>Contact</th>
                 <th>Web page</th>
+                <th>Stats</th>
             </tr>
+            {% for processor in processors.processors %}
             <tr>
-                <td>RMLMapper</td>
-                <td>4.9.0</td>
-                <td>2020-09-17</td>
-                <td>Anastasia Dimou</td>
-                <td><a href="https://github.com/rmlio/rmlmapper-java">https://github.com/rmlio/rmlmapper-java</a></td>
+                <td>{{ processor.name }}</td>
+                <td>{{ processor.version }}</td>
+                <td>{{ processor.testDate }}</td>
+                <td>{{ processor.contact }}</td>
+                <td><a href="{{processor.url}}">{{processor.url}}</a></td>
+                <td>
+                    Passed: {{ processor.stats.passed | default: 0 }}<br/>
+                    Failed: {{ processor.stats.failed | default: 0 }}<br/>
+                    Inapplicable: {{ processor.stats.inapplicable | default: 0 }}
+                </td>
             </tr>
-            <tr>
-                <td>CARML</td>
-                <td>0.3.0</td>
-                <td>2020-09-15</td>
-                <td>Pano Maria</td>
-                <td><a href="https://github.com/carml/carml">https://github.com/carml/carml</a></td>
-            </tr>
-            <tr>
-                <td>RocketRML</td>
-                <td>1.0.6</td>
-                <td>2019-06-28</td>
-                <td>Umutcan Simsek</td>
-                <td><a href="https://github.com/semantifyit/RocketRML">https://github.com/semantifyit/RocketRML</a></td>
-            </tr>
-            <tr>
-                <td>SDM-RDFizer</td>
-                <td>3.2</td>
-                <td>2020-06-08</td>
-                <td>Maria-Esther Vidal</td>
-                <td><a href="https://github.com/SDM-TIB/SDM-RDFizer">https://github.com/SDM-TIB/SDM-RDFizer</a></td>
-            </tr>
-            <tr>
-                <td>RMLStreamer</td>
-                <td>2.0.0</td>
-                <td>2020-06-10</td>
-                <td>Anastasia Dimou</td>
-                <td><a href="https://github.com/RMLio/RMLStreamer">https://github.com/RMLio/RMLStreamer</a></td>
-            </tr>
-            <tr>
-                <td>Chimera</td>
-                <td>2.1</td>
-                <td>2021-02-18</td>
-                <td>Mario Scrocca</td>
-                <td><a href="https://github.com/cefriel/chimera">https://github.com/cefriel/chimera</a></td>
-            </tr>
-            <tr>
-                <td>Morph-KGC</td>
-                <td>1.4.0</td>
-                <td>2021-11-11</td>
-                <td>Julián Arenas-Guerrero</td>
-                <td><a href="https://github.com/oeg-upm/Morph-KGC">https://github.com/oeg-upm/Morph-KGC</a></td>
-            </tr>
-            <!--<tr>-->
-                <!--<td>GeoTriples</td>-->
-                <!--<td>Nikolaos Karalis</td>-->
-                <!--<td><a href="http://geotriples.di.uoa.gr/">http://geotriples.di.uoa.gr/</a></td>-->
-            <!--</tr>-->
-            <!--<tr>-->
-                <!--<td>Ontario</td>-->
-                <!--<td>Kemele M. Endris</td>-->
-                <!--<td><a href="https://github.com/WDAqua/Ontario">https://github.com/WDAqua/Ontario</a></td>-->
-            <!--</tr>-->
+            {% endfor %}
         </tbody>
     </table>
 </section>
@@ -126,19 +82,16 @@
         <tbody>
             <tr>
                <th>Test Case</th>
-               <th><a href="https://github.com/carml/carml">CARML</a></th>
-               <th><a href="https://github.com/rmlio/rmlmapper-java">RMLMapper</a> </th>
-               <th><a href="https://github.com/semantifyit/RocketRML">RocketRML</a> </th>
-               <th><a href="https://github.com/SDM-TIB/SDM-RDFizer">SDM-RDFizer</a> </th>
-               <th><a href="https://github.com/RMLio/RMLStreamer">RMLStreamer</a> </th>
-               <th><a href="https://github.com/cefriel/chimera">Chimera</a> </th>
-               <th><a href="https://github.com/oeg-upm/Morph-KGC">Morph-KGC</a> </th>
+               {% for processor in processors.processors %}
+               <th><a href="{{processor.url}}">{{processor.name}}</a></th>
+               {% endfor %}
             </tr>
-            {% for result in carml %}
+            {% for row in processors.results %}
             <tr>
                 <td>
-                    <a href="{{ result.testUri }}">{{ result.testName }}</a>
+                    <a href="{{ row.testUri }}">{{ row.testName }}</a>
                 </td>
+                {% for result in row.results %}
                 {% if result.outcome == "passed" %}
                 <td style="background-color: green;">
                 {% endif %}
@@ -148,98 +101,8 @@
                 {% if result.outcome == "inapplicable" %}
                 <td style="background-color: grey;">
                 {% endif %}
-                <a href="{{ result.outcomeUri }}" style="color: white;">{{ result.outcome }}</a>
+                    <a href="{{ result.outcomeUri }}" style="color: white;">{{ result.outcome }}</a>
                 </td>
-                {% for r2 in rmlmapper %}
-                    {% if result.testName == r2.testName %}
-                        {% if r2.outcome == "passed" %}
-                        <td style="background-color: green;">
-                        {% endif %}
-                        {% if r2.outcome == "failed" %}
-                        <td style="background-color: red;">
-                        {% endif %}
-                        {% if r2.outcome == "inapplicable" %}
-                        <td style="background-color: grey;">
-                        {% endif %}
-                        <a href="{{ r2.outcomeUri }}" style="color: white;">{{ r2.outcome }}</a>
-                        {% endif %}
-                {% endfor %}
-
-                {% for r2 in rocketrml %}
-                    {% if result.testName == r2.testName %}
-                        {% if r2.outcome == "passed" %}
-                        <td style="background-color: green;">
-                            {% endif %}
-                            {% if r2.outcome == "failed" %}
-                        <td style="background-color: red;">
-                            {% endif %}
-                            {% if r2.outcome == "inapplicable" %}
-                        <td style="background-color: grey;">
-                    {% endif %}
-                    <a href="{{ r2.outcomeUri }}" style="color: white;">{{ r2.outcome }}</a>
-                    {% endif %}
-                {% endfor %}
-
-                {% for r2 in sdmrdfizer %}
-                    {% if result.testName == r2.testName %}
-                        {% if r2.outcome == "passed" %}
-                        <td style="background-color: green;">
-                            {% endif %}
-                            {% if r2.outcome == "failed" %}
-                        <td style="background-color: red;">
-                            {% endif %}
-                            {% if r2.outcome == "inapplicable" %}
-                        <td style="background-color: grey;">
-                    {% endif %}
-                    <a href="{{ r2.outcomeUri }}" style="color: white;">{{ r2.outcome }}</a>
-                    {% endif %}
-                {% endfor %}
-
-                {% for r2 in rmlstreamer %}
-                    {% if result.testName == r2.testName %}
-                        {% if r2.outcome == "passed" %}
-                        <td style="background-color: green;">
-                            {% endif %}
-                            {% if r2.outcome == "failed" %}
-                        <td style="background-color: red;">
-                            {% endif %}
-                            {% if r2.outcome == "inapplicable" %}
-                        <td style="background-color: grey;">
-                    {% endif %}
-                    <a href="{{ r2.outcomeUri }}" style="color: white;">{{ r2.outcome }}</a>
-                    {% endif %}
-                {% endfor %}
-
-                {% for r2 in chimera %}
-                    {% if result.testName == r2.testName %}
-                        {% if r2.outcome == "passed" %}
-                            <td style="background-color: green;">
-                        {% endif %}
-                        {% if r2.outcome == "failed" %}
-                            <td style="background-color: red;">
-                        {% endif %}
-                        {% if r2.outcome == "inapplicable" %}
-                            <td style="background-color: grey;">
-                        {% endif %}
-
-                        <a href="{{ r2.outcomeUri }}" style="color: white;">{{ r2.outcome }}</a>
-                        {% endif %}
-                {% endfor %}
-
-                {% for r2 in morphkgc %}
-                    {% if result.testName == r2.testName %}
-                    {% if r2.outcome == "passed" %}
-                    <td style="background-color: green;">
-                        {% endif %}
-                        {% if r2.outcome == "failed" %}
-                    <td style="background-color: red;">
-                        {% endif %}
-                        {% if r2.outcome == "inapplicable" %}
-                    <td style="background-color: grey;">
-                        {% endif %}
-
-                    <a href="{{ r2.outcomeUri }}" style="color: white;">{{ r2.outcome }}</a>
-                    {% endif %}
                 {% endfor %}
             </tr>
             {% endfor %}
