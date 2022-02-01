@@ -33,7 +33,7 @@ module.exports = async () => {
             name: 'SDM-RDFizer',
             version: "3.2",
             testDate: "2020-06-08",
-            contact: "Umutcan Simsek",
+            contact: "Maria-Esther Vidal",
             url: "https://github.com/SDM-TIB/SDM-RDFizer"
         }, {
             id: 'rmlstreamer-static',
