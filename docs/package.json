@@ -11,7 +11,7 @@
   "author": "Pieter Heyvaert <pieter.heyvaert@ugent.be>",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^1.0.2",
     "graphql-ld": "^1.2.0",
     "graphql-ld-comunica": "^1.1.2",
     "n3": "^1.0.3",
